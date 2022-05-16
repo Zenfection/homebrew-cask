@@ -1,4 +1,4 @@
-cask "alfred" do
+cask "alfred-mod" do
   version "4.6.5,1299"
   sha256 "2e40599ba17fd6beb36d2db405647b3e7a2e529f91b9d1383776d58b4b7ff5ac"
 
