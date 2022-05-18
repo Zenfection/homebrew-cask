@@ -5,7 +5,7 @@ cask "sublime-text-mod" do
   url "https://github.com/Zenfection/macos/releases/download/1.0/Sublime.Text.4_#{version}.dmg"
   name "Sublime Text"
   desc "Text editor for code, markup and prose"
-  homepage "https://www.sublimetext.com/"
+  homepage "https://github.com/zenfection/macos"
 
   livecheck do
     url "https://www.sublimetext.com/download"

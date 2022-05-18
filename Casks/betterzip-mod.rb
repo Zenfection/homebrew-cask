@@ -5,7 +5,7 @@ cask "betterzip-mod" do
   url "https://github.com/Zenfection/macos/releases/download/1.0/BetterZip_#{version}.dmg"
   name "BetterZip"
   desc "Utility to create and modify archives"
-  homepage "https://macitbetter.com/"
+  homepage "https://github.com/zenfection/macos"
 
   livecheck do
     url "https://macitbetter.com/BetterZip.zip"

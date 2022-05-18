@@ -5,7 +5,7 @@ cask "transmit-mod" do
   url "https://github.com/Zenfection/macos/releases/download/1.0/Transmit_#{version}.dmg"
   name "Transmit"
   desc "File transfer application"
-  homepage "https://panic.com/transmit/"
+  homepage "https://github.com/zenfection/macos"
 
   livecheck do
     url "https://library.panic.com/transmit/transmit5/release-integrity/"
