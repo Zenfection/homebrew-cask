@@ -4,7 +4,7 @@ cask "alfred-mod" do
   url "https://github.com/Zenfection/macos/releases/download/1.0/Alfred_#{version.csv.first}_#{version.csv.second}.dmg"
   name "Alfred"
   desc "Application launcher and productivity software"
-  homepage "https://www.alfredapp.com/"
+  homepage "https://github.com/zenfection/macos"
 
   livecheck do
     url "https://www.alfredapp.com/app/update#{version.major}/general.xml"

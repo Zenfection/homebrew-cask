@@ -5,14 +5,14 @@ cask "bartender-mod" do
 
   name "Bartender"
   desc "Menu bar icon organizer"
-  homepage "https://www.macbartender.com/"
+  homepage "https://github.com/zenfection/macos"
 
   livecheck do
     url "https://www.macbartender.com/B2/updates/AppcastB#{version.major}.xml"
     strategy :sparkle
   end
 
-  auto_updates true
+  auto_updates false
 
   app "Bartender #{version.major}.app"
 
