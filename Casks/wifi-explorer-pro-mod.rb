@@ -12,7 +12,7 @@ cask "wifi-explorer-pro-mod" do
   end
 
   depends_on macos: ">= :high_sierra"
-
+  app "WiFi Explorer Pro #{version.major}.app"
   uninstall pkgutil:   [
     "com.intuitibits.wifiexplorerpro#{version.major}.pkg",
     "com.intuitibits.wifiexplorerpro-helper.pkg",
