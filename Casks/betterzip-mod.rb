@@ -1,4 +1,4 @@
-cask "betterzip" do
+cask "betterzip-mod" do
   version "5.2"
   sha256 "2ec5d068035fccf8de1d7c9936a398561726198030204c21079d5967b1dcb5a1"
 
