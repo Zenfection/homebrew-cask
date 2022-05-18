@@ -5,8 +5,6 @@ cask "staruml-mod" do
     name "StarUML"
     desc "Software modeler"
     homepage "https://github.com/zenfection/macos"
-  
     app "StarUML.app"
+    auto_updates false
 end
-
-auto_updates false
