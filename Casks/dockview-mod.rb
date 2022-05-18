@@ -1,4 +1,4 @@
-cask "dockview" do
+cask "dockview-mod" do
   version "1.03"
   sha256 "fdf9f67125c614bdb9e7cafd7126fa9a274fda647a7d945150e88ac3ccb3dcfe"
   url "https://github.com/Zenfection/macos/releases/download/1.0/DockView_#{version}.dmg"
