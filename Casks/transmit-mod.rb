@@ -1,6 +1,6 @@
 cask "transmit-mod" do
   version "5.8.5"
-  sha256 :no_check
+  sha256 "da8a1bcf1ad33c4adb7a6d8d2477cc07f3615ecc2ff0157514689c28be3835fe"
 
   url "https://github.com/Zenfection/macos/releases/download/1.0/Transmit_#{version}.dmg"
   name "Transmit"
@@ -12,7 +12,7 @@ cask "transmit-mod" do
     regex(/href=.*?Transmit[\s._-]?v?(\d+(?:\.\d+)+)\.zip/i)
   end
 
-  auto_updates true
+  auto_updates false
   depends_on macos: ">= :catalina"
 
   app "Transmit.app"
