@@ -1,4 +1,4 @@
-cask "image2icon" do
+cask "image2icon-mod" do
   version "2.17"
   sha256 "e9cded557920710cfbe99a553ec4f7a156cb066d848d5c53f92d54afba22c149"
   url "https://github.com/Zenfection/macos/releases/download/1.0/Image2icon_#{version}.dmg"
