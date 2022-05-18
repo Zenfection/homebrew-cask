@@ -2,7 +2,7 @@ cask "betterzip" do
   version "5.2"
   sha256 "2ec5d068035fccf8de1d7c9936a398561726198030204c21079d5967b1dcb5a1"
 
-  url "https://github.com/Zenfection/macos/releases/download/1.0/BetterZip_#{version}.dmg",
+  url "https://github.com/Zenfection/macos/releases/download/1.0/BetterZip_#{version}.dmg"
   name "BetterZip"
   desc "Utility to create and modify archives"
   homepage "https://macitbetter.com/"
