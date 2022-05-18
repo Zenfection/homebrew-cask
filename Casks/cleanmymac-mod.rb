@@ -1,4 +1,4 @@
-cask "cleanmymac" do
+cask "cleanmymac-mod" do
   version "4.10.6"
   sha256 "bc47d87d30b32b1109ff152c8472a01fcd1495be4b1af9d7dc45f61fa0212769"
 
