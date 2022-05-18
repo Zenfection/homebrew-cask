@@ -1,4 +1,4 @@
-cask "transmit" do
+cask "transmit-mod" do
   version "5.8.5"
   sha256 :no_check
 
