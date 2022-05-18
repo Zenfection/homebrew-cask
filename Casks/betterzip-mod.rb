@@ -7,6 +7,11 @@ cask "betterzip-mod" do
   desc "Utility to create and modify archives"
   homepage "https://macitbetter.com/"
 
+  livecheck do
+    url "https://macitbetter.com/BetterZip.zip"
+    strategy :header_match
+  end
+
   auto_updates false
   depends_on macos: ">= :high_sierra"
 
