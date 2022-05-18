@@ -1,6 +1,6 @@
 cask "dockview-mod" do
   version "1.03"
-  sha256 "fdf9f67125c614bdb9e7cafd7126fa9a274fda647a7d945150e88ac3ccb3dcfe"
+  sha256 "37979a6350db18a09dadf5abf2e66e616367f4f09365dd742ed5bd655bba9531"
   url "https://github.com/Zenfection/macos/releases/download/1.0/DockView_#{version}.dmg"
   name "dockview"
   desc "Utility to preview application windows in the dock"
