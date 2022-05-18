@@ -8,3 +8,5 @@ cask "staruml-mod" do
   
     app "StarUML.app"
 end
+
+auto_updates false

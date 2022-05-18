@@ -5,7 +5,7 @@ cask "sitesucker-pro-mod" do
 
   name "SiteSucker Pro"
   desc "Website downloader tool"
-  homepage "https://ricks-apps.com/osx/sitesucker/index.html"
+  homepage "https://github.com/zenfection/macos"
 
   livecheck do
     url "https://ricks-apps.com/osx/sitesucker/history.html"
