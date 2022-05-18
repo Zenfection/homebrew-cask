@@ -5,7 +5,7 @@ cask "tg-pro-mod" do
   url "https://github.com/Zenfection/macos/releases/download/1.0/TG.Pro_#{version}.dmg"
   name "TG Pro"
   desc "Temperature monitoring, fan control and diagnostics"
-  homepage "https://github.com/zenfection"
+  homepage "https://github.com/zenfection/macos"
 
   livecheck do
     url "https://www.tunabellysoftware.com/resources/sparkle/tgpro.xml"
