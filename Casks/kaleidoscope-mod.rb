@@ -14,7 +14,7 @@ cask "kaleidoscope-mod" do
     end
   end
 
-  auto_updates false
+  auto_updates true
   depends_on macos: ">= :big_sur"
 
   app "Kaleidoscope.app"

@@ -12,7 +12,7 @@ cask "betterzip-mod" do
     strategy :header_match
   end
 
-  auto_updates false
+  auto_updates true
   depends_on macos: ">= :high_sierra"
 
   app "BetterZip.app"

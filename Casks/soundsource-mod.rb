@@ -11,7 +11,7 @@ cask "soundsource-mod" do
     regex(/ra-version=["']?(\d+(?:\.\d+)+)["' >]/i)
   end
 
-  auto_updates false
+  auto_updates true
   depends_on macos: ">= :high_sierra"
 
   app "SoundSource.app"

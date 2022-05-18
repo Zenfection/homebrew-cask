@@ -11,7 +11,7 @@ cask "image2icon-mod" do
     strategy :sparkle
   end
 
-  auto_updates false
+  auto_updates true
 
   app "Image2Icon.app"
 

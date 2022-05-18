@@ -11,7 +11,7 @@ cask "geekbench-mod" do
     strategy :sparkle
   end
 
-  auto_updates false
+  auto_updates true
 
   app "Geekbench #{version.major}.app"
 

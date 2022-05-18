@@ -11,7 +11,7 @@ cask "dockview-mod" do
     strategy :sparkle
   end
 
-  auto_updates false
+  auto_updates true
 
   app "DockView.app"
 

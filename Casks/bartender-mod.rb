@@ -12,7 +12,7 @@ cask "bartender-mod" do
     strategy :sparkle
   end
 
-  auto_updates false
+  auto_updates true
 
   app "Bartender #{version.major}.app"
 

@@ -12,7 +12,7 @@ cask "transmit-mod" do
     regex(/href=.*?Transmit[\s._-]?v?(\d+(?:\.\d+)+)\.zip/i)
   end
 
-  auto_updates false
+  auto_updates true
   depends_on macos: ">= :catalina"
 
   app "Transmit.app"

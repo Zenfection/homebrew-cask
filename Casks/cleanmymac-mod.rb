@@ -13,7 +13,7 @@ cask "cleanmymac-mod" do
     strategy :sparkle
   end
 
-  auto_updates false
+  auto_updates true
   conflicts_with cask: "cleanmymac-zh"
 
   app "CleanMyMac X.app"

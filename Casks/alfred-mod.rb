@@ -16,7 +16,7 @@ cask "alfred-mod" do
     end
   end
 
-  auto_updates false
+  auto_updates true
 
   app "Alfred #{version.major}.app"
 

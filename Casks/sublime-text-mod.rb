@@ -18,7 +18,7 @@ cask "sublime-text-mod" do
     end
   end
 
-  auto_updates false
+  auto_updates true
   conflicts_with cask: "sublime-text-dev"
 
   app "Sublime Text.app"
