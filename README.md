@@ -14,13 +14,41 @@ Name: MACSERIALJUNKIE
 Serial: ZLAT-UV86-A4J9-294N-8BKD-PJGP-RGZF-UFPU-J8E2
 ```
 
-### A Better Finder Rename
+### <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/better_rename.png" width="50"> A Better Finder Rename
 
 ```bash
 brew install a-better-finder-rename
 
 --- License ---
 ABFR-4553985911965
+```
+
+### <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/plistedit.png" width="50"> PlistEdit Pro
+
+```bash
+brew install plistedit-pro
+
+--- License ---
+Name: TEAM HCiSO
+Serial: PLEDPRO950-927K-N7L3-B4DR-LG41-0508
+```
+
+### <img src="https://insmac.org/uploads/posts/2017-09/1506501962_radio-silence.png" width="50"> Radio Silence
+
+```bash
+brew install radio-silence
+
+--- License ---
+0PFNRRT731E5E1DC7994F4F8067BACC8D129649F2
+```
+
+### <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/vmware.png" width="50"> Vmware Fusion
+
+```bash
+brew install vmware-fusion
+
+--- License ---
+ZF3R0-FHED2-M80TY-8QYGC-NPKYF
 ```
 
 ## Software Repack
@@ -31,7 +59,9 @@ ABFR-4553985911965
 brew install alfred-mod
 ```
 
-## <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/art_text.png" width="50"> Art-text
+### <img src="" width="50"> App Cleaner
+
+### <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/art_text.png" width="50"> Art-text
 
 ```bash
 brew install art-text-mod
@@ -143,9 +173,25 @@ brew install staruml-mod
 
 ```bash
 brew install sublime-text-mod
+
+--- License ---
+
+----BEGIN LICENSE-----
+TNT Team
+Unlimited User License
+EA7E-2010859462
+6C5E525261BC8146AAAC8783279A74F5
+57BF1CB0C1944B5517D42C38DB2282F2
+E047071E334FEF878FFF09A3BB2B787B
+06CE14F6DDAFB7A8C1123C226C250323
+B45CC6567A2575668B94A3ACB773D963
+ED045D9F798CC023694AF1467FD51C75
+B05B81C8B226863915DC1140ADB97EC4
+1CFA3B0FD72AACB8DBA7B6204A7AC4C2
+-----END LICENSE-----
 ```
 
-## <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/#.png" width="50"> Tg-pro
+## <img src="https://www.tunabellysoftware.com/files/stacks-image-b69dff4-128x128.png" width="50"> Tg-pro
 
 ```bash
 brew install tg-pro-mod
