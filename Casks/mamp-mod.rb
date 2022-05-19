@@ -1,6 +1,6 @@
 cask "mamp-mod" do
   version "6.6.1"
-  sha256 "bc580bde48a2294d9ae3089577e12c9460461c599d1600249be40fc54397c434"
+  sha256 "8992603cb0605836ed721c524900ede5015573692d1cce832067bbc77d0cb362"
   url "https://github.com/Zenfection/macos/releases/download/1.0/MAMP.Pro_#{version}.dmg"
   
 
@@ -11,7 +11,7 @@ cask "mamp-mod" do
   auto_updates true
   depends_on macos: ">= :sierra"
 
-  pkg "MAMP_MAMP_PRO #{version}/MAMP_MAMP_PRO_#{version}-REPACK.pkg"
+  pkg "MAMP_MAMP_PRO_#{version}-REPACK.pkg"
 
   postflight do
     set_ownership ["/Applications/MAMP", "/Applications/MAMP PRO"]
