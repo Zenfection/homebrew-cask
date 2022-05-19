@@ -40,7 +40,7 @@ brew install camtasia-mod
 brew install cleanmymac-mod
 ```
 
-## <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/#.png" width="50"> Dockview
+## <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/dockview.png" width="50"> Dockview
 
 ```bash
 brew install dockview-mod
@@ -70,19 +70,19 @@ brew install iconjar-mod
 brew install icon8-mod
 ```
 
-## <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/#.png" width="50"> Image-optimizer
+## <img src="https://insmac.org/uploads/posts/2021-04/1618549566_image-optimizer-pro.png" width="50"> Image-optimizer
 
 ```bash
 brew install image-optimizer-mod
 ```
 
-## <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/#.png" width="50"> Image2icon
+## <img src="https://insmac.org/uploads/posts/2021-02/1613032333_image2icon.png" width="50"> Image2icon
 
 ```bash
 brew install image2icon-mod
 ```
 
-## <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/#.png" width="50"> Kaleidoscope
+## <img src="https://insmac.org/uploads/posts/2021-10/1633635472_kaleidoscope.png" width="50"> Kaleidoscope
 
 ```bash
 brew install kaleidoscope-mod
@@ -100,19 +100,19 @@ brew install movavi-convert-mod
 brew install navicat-premium-mod
 ```
 
-## <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/#.png" width="50"> Permute
+## <img src="https://insmac.org/uploads/posts/2018-12/1544018543_permute-3.png" width="50"> Permute
 
 ```bash
 brew install permute-mod
 ```
 
-## <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/#.png" width="50"> Sitesucker-pro
+## <img src="https://insmac.org/uploads/posts/2021-11/sitesucker-pro.png" width="50"> Sitesucker-pro
 
 ```bash
 brew install sitesucker-mod
 ```
 
-## <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/#.png" width="50"> Soundsource
+## <img src="https://insmac.org/uploads/posts/2020-08/1597327237_soundsource.png" width="50"> Soundsource
 
 ```bash
 brew install soundsource-mod
@@ -136,7 +136,7 @@ brew install sublime-text-mod
 brew install tg-pro-mod
 ```
 
-## <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/#.png" width="50"> Transmit
+## <img src="https://insmac.org/uploads/posts/2020-11/1605503988_transmit.png" width="50"> Transmit
 
 ```bash
 brew install transmit-mod
@@ -154,13 +154,13 @@ brew install videoproc-mod
 brew install weather-guru-mod
 ```
 
-## <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/#.png" width="50"> Wifi-explorer-pro
+## <img src="https://insmac.org/uploads/posts/2020-12/1608576215_wifi-explorer-pro.png" width="50"> Wifi-explorer-pro
 
 ```bash
 brew install wifi-explorer-pro-mod
 ```
 
-## <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/#.png" width="50"> Yoink
+## <img src="https://insmac.org/uploads/posts/2021-05/1620538111_yoink.png" width="50"> Yoink
 
 ```bash
 brew install yoink-mod
