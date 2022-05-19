@@ -1,6 +1,6 @@
 cask "mamp-mod" do
   version "6.6.1"
-  sha256 "8992603cb0605836ed721c524900ede5015573692d1cce832067bbc77d0cb362"
+  sha256 "bc580bde48a2294d9ae3089577e12c9460461c599d1600249be40fc54397c434"
   url "https://github.com/Zenfection/macos/releases/download/1.0/MAMP.Pro_#{version}.dmg"
   
 
