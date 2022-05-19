@@ -8,11 +8,6 @@ cask "mamp-mod" do
   desc "Web development solution with Apache, Nginx, PHP & MySQL"
   homepage "https://www.mamp.info/"
 
-  livecheck do
-    url "https://www.mamp.info/en/downloads/"
-    regex(%r{href=.*?/MAMP[._-]MAMP[._-]PRO[._-]v?(\d+(?:\.\d+)+)[._-]#{arch}\.pkg}i)
-  end
-
   auto_updates true
   depends_on macos: ">= :sierra"
 
