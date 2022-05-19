@@ -12,7 +12,7 @@ brew install alfred-mod
 brew install art-text-mod
 ```
 
-## <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/bartender.png" width="50"> Bartender
+## <img src="https://www.macbartender.com/Bartender4/img/Icon-1024.png" width="50"> Bartender
 
 ```bash
 brew install bartender-mod
@@ -30,7 +30,7 @@ brew install betterzip-mod
 brew install camtasia-mod
 ```
 
-## <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/cleanmymac.png" width="50"> Cleanmymac
+## <img src="https://assets.website-files.com/58e38d6249c51990083e2403/60378f103b7cea02881da156_app-icon.png" width="50"> Cleanmymac
 
 ```bash
 brew install cleanmymac-mod
@@ -48,13 +48,13 @@ brew install dockview-mod
 brew install downie-mod
 ```
 
-## <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/#.png" width="50"> Geekbench
+## <img src="https://crackbay.org/wp-content/uploads/2022/01/geekbench.png" width="50"> Geekbench
 
 ```bash
 brew install geekbench-mod
 ```
 
-## <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/#.png" width="50"> Iconjar
+## <img src="https://geticonjar.com/static/39216b607bc7deb19950fc09f4b8bed5/e28f0/app-icon%402x.webp" width="50"> Iconjar
 
 ```bash
 brew install iconjar-mod
