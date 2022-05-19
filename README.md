@@ -2,6 +2,8 @@
 
 ## <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/alfred.png" width="50">Alfred
 
+Powerful application to replace Spotlight
+
 ```bash
 brew install alfred-mod
 ```
