@@ -7,7 +7,7 @@
 ### <img src="https://insmac.org/uploads/posts/2020-08/1597327237_soundsource.png" width="50"> Soundsource
 
 ```bash
-$ brew install soundsource
+brew install soundsource
 
 --- License ---
 Name: MACSERIALJUNKIE
@@ -17,7 +17,7 @@ Serial: ZLAT-UV86-A4J9-294N-8BKD-PJGP-RGZF-UFPU-J8E2
 ### A Better Finder Rename
 
 ```bash
-$ brew install a-better-finder-rename
+brew install a-better-finder-rename
 
 --- License ---
 ABFR-4553985911965
@@ -28,7 +28,7 @@ ABFR-4553985911965
 ### <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/alfred.png" width="50">Alfred
 
 ```bash
-$ brew install alfred-mod
+brew install alfred-mod
 ```
 
 ## <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/art_text.png" width="50"> Art-text
