@@ -1,5 +1,7 @@
 # Homebrew Cask Zen
 
+> ⚠️ This is just a personal project. All tools here are only suitable for Intel Arch and >= Catalina
+
 ## <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/alfred.png" width="50">Alfred
 
 Powerful application to replace Spotlight
