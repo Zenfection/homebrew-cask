@@ -14,7 +14,7 @@ cask "app-cleaner-mod" do
   
     depends_on macos: ">= :yosemite"
   
-    app "App Cleaner & Uninstaller.app"
+    app "App Cleaner #{version.major}.app"
   
     zap trash: [
       "~/Library/Application Scripts/com.nektony.App-Cleaner-Pro",
