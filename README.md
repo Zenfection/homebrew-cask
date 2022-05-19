@@ -2,12 +2,33 @@
 
 > ⚠️ This is just a personal project. All tools here are only suitable for Intel Arch and >= Catalina
 
-## <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/alfred.png" width="50">Alfred
+## Softwares have key premium
 
-Powerful application to replace Spotlight
+### <img src="https://insmac.org/uploads/posts/2020-08/1597327237_soundsource.png" width="50"> Soundsource
 
 ```bash
-brew install alfred-mod
+$ brew install soundsource
+
+--- License ---
+Name: MACSERIALJUNKIE
+Serial: ZLAT-UV86-A4J9-294N-8BKD-PJGP-RGZF-UFPU-J8E2
+```
+
+### A Better Finder Rename
+
+```bash
+$ brew install a-better-finder-rename
+
+--- License ---
+ABFR-4553985911965
+```
+
+## Software Repack
+
+### <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/alfred.png" width="50">Alfred
+
+```bash
+$ brew install alfred-mod
 ```
 
 ## <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/art_text.png" width="50"> Art-text
@@ -110,12 +131,6 @@ brew install permute-mod
 
 ```bash
 brew install sitesucker-mod
-```
-
-## <img src="https://insmac.org/uploads/posts/2020-08/1597327237_soundsource.png" width="50"> Soundsource
-
-```bash
-brew install soundsource-mod
 ```
 
 ## <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/staruml.png" width="50"> Staruml
