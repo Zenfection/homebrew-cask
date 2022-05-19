@@ -59,7 +59,11 @@ ZF3R0-FHED2-M80TY-8QYGC-NPKYF
 brew install alfred-mod
 ```
 
-### <img src="" width="50"> App Cleaner
+### <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/app_cleaner.png" width="50"> App Cleaner
+
+```bash
+brew install app-cleaner-mod
+```
 
 ### <img src="https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Icon/art_text.png" width="50"> Art-text
 
@@ -85,7 +89,7 @@ brew install betterzip-mod
 brew install camtasia-mod
 ```
 
-## <img src="https://assets.website-files.com/58e38d6249c51990083e2403/60378f103b7cea02881da156_app-icon.png" width="50"> Cleanmymac
+## <img src="https://assets.website-files.com/58e38d6249c51990083e2403/60378f103b7cea02881da156_app-icon.png" width="45"> Cleanmymac
 
 ```bash
 brew install cleanmymac-mod
