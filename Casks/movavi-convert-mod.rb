@@ -9,5 +9,5 @@ cask "movavi-convert-mod" do
     auto_updates true
     depends_on macos: ">= :mojave"
 
-    app "Movavi Video Convert 22 Premium.app"
+    app "Movavi Video Converter 22 Premium.app"
 end
