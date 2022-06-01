@@ -1,4 +1,4 @@
-cask "macdroid" do
+cask "macdroid-mod" do
     version "1.5"
     sha256 :no_check
 
