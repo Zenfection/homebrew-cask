@@ -12,8 +12,6 @@ cask "app-cleaner-mod" do
       strategy :sparkle
     end
   
-    depends_on macos: ">= :yosemite"
-  
     app "App Cleaner #{version.major}.app"
   
     zap trash: [
