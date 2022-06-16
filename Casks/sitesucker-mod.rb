@@ -15,7 +15,7 @@ cask "sitesucker-mod" do
   auto_updates true
   depends_on macos: ">= :mojave"
 
-  app "SiteSucker Pro.app"
+  app "SiteSucker.app"
 
   zap trash: [
     "~/Library/Application Scripts/us.sitesucker.mac.sitesucker-pro",
