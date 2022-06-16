@@ -1,6 +1,6 @@
 cask "staruml-mod" do
-    version "5.0.1"
-    sha256 "2713053a90e93c10186071202cc0181ead92c33c43184b9a575def1b9d1d7333"
+    version "5.0.2"
+    sha256 "4fcb89000c9ac342da1fa1158cba708c76468e0e4d6fa719a715faeb54625fc6"
     url "https://github.com/Zenfection/macos/releases/download/1.0/StarUML_#{version}.dmg"
     name "StarUML"
     desc "Software modeler"
