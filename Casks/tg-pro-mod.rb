@@ -1,6 +1,6 @@
 cask "tg-pro-mod" do
-  version "2.69"
-  sha256 "a7470dd8475de4022fa0ae30064c5160a856c985eb64224b52d23f51c23b265d"
+  version "2.70"
+  sha256 "f6a57a8201f37a5faefb9290c86cdc09a60be620a5c07838b40db8958b8de1ed"
 
   url "https://github.com/Zenfection/macos/releases/download/1.0/TG.Pro_#{version}.dmg"
   name "TG Pro"
