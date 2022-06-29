@@ -1,6 +1,6 @@
 cask "app-cleaner-mod" do
-    version "7.7.1"
-    sha256 "764437156b744dc0b65950fef0ec1c4ecc764da9d0022143fa920fefcf07b512"
+    version "7.8"
+    sha256 "54cd7e6d561bd639ff9d20643f56ffbd8cee79529586bfff12f499380c07ba19"
   
     url "https://github.com/Zenfection/macos/releases/download/1.0/App.Cleaner_#{version}.dmg"
     name "Nektony App Cleaner & Uninstaller"
