@@ -10,4 +10,8 @@ cask "zadark" do
     depends_on macos: ">= :mojave"
 
     pkg "ZaDark_#{version}.pkg"
+
+    zap trash: [
+        '/Applications/ZaDark.app',
+    ]
 end
