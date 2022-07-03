@@ -16,5 +16,3 @@ cask "expressions-mod" do
       "~/Library/Containers/com.apptorium.Expressions-dm",
     ]
   end
-  Footer
-  
