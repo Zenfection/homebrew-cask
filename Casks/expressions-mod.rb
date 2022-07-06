@@ -1,6 +1,6 @@
 cask "expressions-mod" do
-    version "1.3.5"
-    sha256 "a0407cdcb205c38c303f1adf6b4c16db4731a0c660d5826244db20eb59c606f5"
+    version "1.3.6"
+    sha256 "6eaa8584c77d66c0a536532cf23b2037b0b6fb830acdc41efc25df96d4794517"
   
     url "https://github.com/Zenfection/macos/releases/download/1.0/Expressions_#{version}.dmg"
     name "Expressions"
