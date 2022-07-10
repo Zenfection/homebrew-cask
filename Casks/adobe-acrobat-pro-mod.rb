@@ -1,10 +1,8 @@
-cask "adobe-acrobat-pro" do
+cask "adobe-acrobat-pro-mod" do
     version "22.001.20112"
     sha256 "62ebd3c08b7bdac7b718155911ac7a96597900f53b28ea335dc298564d6d3db7"
   
-    url "https://github.com/Zenfection/macos/releases/download/1.0/Acrobat_DC_Web_WWMUI_#{version}.dmg",
-        user_agent: :fake,
-        cookies:    { "MM_TRIALS" => "1234" }
+    url "https://github.com/Zenfection/macos/releases/download/1.0/Acrobat_DC_Web_WWMUI_#{version}.dmg"
     name "Adobe Acrobat Pro DC"
     desc "View, create, manipulate, print and manage files in Portable Document Format"
     homepage "https://github.com/zenfection/macos"
