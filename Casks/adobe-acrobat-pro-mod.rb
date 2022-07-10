@@ -10,7 +10,7 @@ cask "adobe-acrobat-pro-mod" do
     auto_updates true
 
     pkg "Acrobat DC/Acrobat DC Installer.pkg"
-    artifact 'Acrobat', target: "/Applications/Adobe Acrobat DC/Adobe Acrobat.app/Contents/Frameworks/Acrobat.framework/Versions/Acrobat"
+    artifact 'Acrobat', target: "/Applications/Adobe Acrobat DC/Adobe Acrobat.app/Contents/Frameworks/Acrobat.framework/Versions/Acrobat/A"
     uninstall pkgutil:   [
                 "com.adobe.acrobat.DC.*",
                 "com.adobe.PDApp.AdobeApplicationManager.installer.pkg",
