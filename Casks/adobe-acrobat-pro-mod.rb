@@ -1,6 +1,6 @@
 cask "adobe-acrobat-pro-mod" do
     version "22.001.20112"
-    sha256 "4d6c284d19a0cfdfdbfb9bcc666a469fde953ee2a18a2070bf978c080f8d8c8e"
+    sha256 "b111f1190a12d6c04209328939446f422368ca5db49237e890850b4624bf4c8b"
 
     url "https://github.com/Zenfection/macos/releases/download/1.0/Acrobat_DC_Web_WWMUI_#{version}.zip"
     name "Adobe Acrobat Pro DC"
