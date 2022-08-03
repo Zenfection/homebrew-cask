@@ -1,6 +1,6 @@
 cask "zadark" do
-    version "4.8"
-    sha256 "51b803a354b2c3497a24235c69ec30742a8471dd5bd4738a08fdbb20a67732e3"
+    version "4.10"
+    sha256 "bce045c675cdaf54483a52f936d9a2b727b6577b3e53164ffdf39b2284b25ad8"
     url "https://github.com/Zenfection/macos/releases/download/1.0/ZaDark_#{version}.pkg"
     name "ZaDark"
     desc "ZaDark là tiện ích mã nguồn mở giúp kích hoạt Dark Mode cho Zalo trên PC và Trình duyệt Web."
