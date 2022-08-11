@@ -18,7 +18,6 @@ cask "kaleidoscope-mod" do
   depends_on macos: ">= :big_sur"
 
   app "Kaleidoscope.app"
-  binary "#{appdir}/Kaleidoscope.app/Contents/Resources/bin/ksdiff"
 
   zap trash: [
     "~/Library/Application Support/app.kaleidoscope.v*",
