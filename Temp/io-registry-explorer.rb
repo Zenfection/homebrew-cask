@@ -1,0 +1,2 @@
+b19a9a657cb6b59f17dfbc7681b36a79cf74b259fb7abfcf9ae8d6335e1d9713
+https://github.com/Zenfection/macos/releases/download/1.0/IORegistryExplorer_3.0.2.dmg
