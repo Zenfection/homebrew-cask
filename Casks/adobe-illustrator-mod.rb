@@ -8,6 +8,8 @@ cask "adobe-illustrator-mod" do
     homepage "https://github.com/zenfection/macos"
     
     auto_updates true
+    
+    pkg "AntiCC_1.7.pkg"
 
     installer script: {
         executable:   "#{staged_path}/Install.app/Contents/MacOS/Install",
