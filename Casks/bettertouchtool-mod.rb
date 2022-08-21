@@ -7,6 +7,8 @@ cask "bettertouchtool-mod" do
     desc "Tool to customize input devices and automate computer systems"
     homepage "https://github.com/zenfection/macos"
   
+    pkg "Prevent updates patch.app"
+    pkg "Copy me to the desktop.bttlicense"
     
     auto_updates true
   
