@@ -15,6 +15,7 @@ cask "bettertouchtool-mod" do
 
     installer script: {
       executable: "blockHost.sh",
+      sudo: true,
     }
 
     uninstall quit: "com.hegenberg.BetterTouchTool"
