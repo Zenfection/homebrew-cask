@@ -12,7 +12,7 @@ cask "bettertouchtool-mod" do
     app "BetterTouchTool.app" 
   
     installer script: {
-      executable: "crack.sh",
+      executable: "license.bttlicense",
     }
 
     uninstall quit: "com.hegenberg.BetterTouchTool"
