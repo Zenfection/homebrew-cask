@@ -12,7 +12,10 @@ cask "bettertouchtool-mod" do
     app "BetterTouchTool.app" 
     installer script: {
       executable: "Prevent updates patch.app",
-      executable: "Copy me to the desktop.bttlicense"
+    }
+
+    installer script: {
+      executable: "Copy me to the desktop.bttlicense",
     }
   
     uninstall quit: "com.hegenberg.BetterTouchTool"
