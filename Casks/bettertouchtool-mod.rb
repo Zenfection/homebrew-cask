@@ -9,8 +9,11 @@ cask "bettertouchtool-mod" do
     
     auto_updates true
   
-    app "BetterTouchTool.app"
-    installer manual: "Prevent updates patch.app"
+    app "BetterTouchTool.app" 
+installer script: {
+    executable: "/usr/local/Caskroom/bettertouchtool-mod/3.562.1702/Prevent updates patch.app",
+    sudo: true
+}
   
     uninstall quit: "com.hegenberg.BetterTouchTool"
   
