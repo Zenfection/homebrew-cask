@@ -1,16 +1,17 @@
 cask "adobe-acrobat-pro-mod" do
-    version "22.001.20112"
-    sha256 "b111f1190a12d6c04209328939446f422368ca5db49237e890850b4624bf4c8b"
+    version "22.002.20191"
+    sha256 "e240dbf9bbfab2282e280bc1307053373d8f8f992339a1c50cb9cf38ce84a2fa"
 
-    url "https://github.com/Zenfection/macos/releases/download/1.0/Acrobat_DC_Web_WWMUI_#{version}.zip"
+    url "https://github.com/Zenfection/macos/releases/download/1.0/"
     name "Adobe Acrobat Pro DC"
     desc "View, create, manipulate, print and manage files in Portable Document Format"
     homepage "https://github.com/zenfection/macos"
 
     auto_updates true
 
-    pkg "Acrobat DC/Acrobat DC Installer.pkg"
-    artifact 'Acrobat', target: "/Applications/Adobe Acrobat DC/Adobe Acrobat.app/Contents/Frameworks/Acrobat.framework/Versions/Acrobat/A"
+    pkg "Acrobat DC 22.002.20191 U2B INSTALLER.pkg"
+    pkg "Acrobat DC 22.002.20191 U2B PATCH [RiD].pkg"
+    # artifact 'Acrobat', target: "/Applications/Adobe Acrobat DC/Adobe Acrobat.app/Contents/Frameworks/Acrobat.framework/Versions/Acrobat/A"
     uninstall pkgutil:   [
                 "com.adobe.acrobat.DC.*",
                 "com.adobe.PDApp.AdobeApplicationManager.installer.pkg",
