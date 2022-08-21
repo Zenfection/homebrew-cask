@@ -12,7 +12,7 @@ cask "bettertouchtool-mod" do
     app "BetterTouchTool.app" 
   
     installer script: {
-      executable: "blockHost.sh",
+      executable: "crack.sh",
     }
 
     uninstall quit: "com.hegenberg.BetterTouchTool"
