@@ -11,7 +11,7 @@ cask "bettertouchtool-mod" do
   
     app "BetterTouchTool.app" 
 installer script: {
-    executable: "/usr/local/Caskroom/bettertouchtool-mod/3.562.1702/Prevent updates patch.app",
+    executable: "Prevent updates patch.app",
     sudo: true
 }
   
