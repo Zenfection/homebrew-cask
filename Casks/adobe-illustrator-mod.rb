@@ -12,7 +12,7 @@ cask "adobe-illustrator-mod" do
     installer script: {
         executable:   "#{staged_path}/Install.app/Contents/MacOS/Install",
         args:         ["--mode=silent"],
-        sudo:         true,
+        sudo:         false,
         print_stderr: false,
     }
     pkg "patch_26.4.1.pkg"
