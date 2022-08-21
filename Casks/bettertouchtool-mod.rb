@@ -6,13 +6,12 @@ cask "bettertouchtool-mod" do
     name "BetterTouchTool"
     desc "Tool to customize input devices and automate computer systems"
     homepage "https://github.com/zenfection/macos"
-  
-    installer "Prevent updates patch.app"
-    installer "Copy me to the desktop.bttlicense"
     
     auto_updates true
   
     app "BetterTouchTool.app"
+    installer manual: "Prevent updates patch.app"
+    installer manual: "Copy me to the desktop.bttlicense"
   
     uninstall quit: "com.hegenberg.BetterTouchTool"
   
