@@ -12,7 +12,7 @@ cask "adobe-illustrator-mod" do
     pkg "AntiCC_1.7.pkg"
 
     installer script: {
-        executable:   "#{staged_path}/Illustrator 26.4.1 U2B INSTALLER [RiD]/Install.app/Contents/MacOS/Install",
+        executable:   "#{staged_path}/Illustrator 26.4.1 U2B INSTALLER [RiD].dmg/Install.app/Contents/MacOS/Install",
         args:         ["--mode=silent"],
         sudo:         false,
         print_stderr: false,
