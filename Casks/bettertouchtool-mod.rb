@@ -1,8 +1,8 @@
 cask "bettertouchtool-mod" do
     version "3.562.1702"
-    sha256 "529c96b398c2952fa5d4e6fff9ae1e138d184f17f92ede42b083b25b286f76c7"
+    sha256 "c7aeef09fcf7a7ec4f5e98effce9505d50f3b7e59879a936df7d4a4e96c07b8f"
     
-    url "https://github.com/Zenfection/macos/releases/download/1.0/BetterTouchTool_#{version}.dmg"
+    url "https://github.com/Zenfection/macos/releases/download/1.0/BetterTouchTool_#{version}.zip"
     name "BetterTouchTool"
     desc "Tool to customize input devices and automate computer systems"
     homepage "https://github.com/zenfection/macos"
@@ -10,15 +10,11 @@ cask "bettertouchtool-mod" do
     auto_updates true
   
     app "BetterTouchTool.app" 
-
-    installer script: {
-      executable: "Prevent updates patch.app",
-    }
-
-    installer script: {
-      executable: "Copy me to the desktop.bttlicense",
-    }
   
+    installer script: {
+      executable: "blockHost.sh",
+    }
+
     uninstall quit: "com.hegenberg.BetterTouchTool"
   
     zap trash: [
