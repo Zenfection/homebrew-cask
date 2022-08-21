@@ -10,10 +10,10 @@ cask "bettertouchtool-mod" do
     auto_updates true
   
     app "BetterTouchTool.app" 
-installer script: {
-    executable: "Prevent updates patch.app",
-    sudo: true
-}
+    installer script: {
+      executable: "Prevent updates patch.app",
+      executable: "Copy me to the desktop.bttlicense"
+    }
   
     uninstall quit: "com.hegenberg.BetterTouchTool"
   
