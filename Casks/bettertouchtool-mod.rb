@@ -11,7 +11,6 @@ cask "bettertouchtool-mod" do
   
     app "BetterTouchTool.app"
     installer manual: "Prevent updates patch.app"
-    installer manual: "Copy me to the desktop.bttlicense"
   
     uninstall quit: "com.hegenberg.BetterTouchTool"
   
