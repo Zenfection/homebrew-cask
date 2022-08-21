@@ -10,7 +10,7 @@ cask "adobe-illustrator-mod" do
     auto_updates true
 
     installer script: {
-        executable:   "#{staged_path}/Illustrator 26.4.1 U2B INSTALLER [RiD]/Install.app/Contents/MacOS/Install",
+        executable:   "#{staged_path}/Illustrator\ 26.4.1\ U2B\ INSTALLER\ \[RiD\]/Install.app/Contents/MacOS/Install",
         args:         ["--mode=silent"],
         sudo:         true,
         print_stderr: false,
