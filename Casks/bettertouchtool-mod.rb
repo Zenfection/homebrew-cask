@@ -11,11 +11,6 @@ cask "bettertouchtool-mod" do
   
     app "BetterTouchTool.app" 
 
-    postflight do
-      set_permissions "#{staged_path}/Prevent updates patch.app", '0755'
-      set_permissions "#{staged_path}/Copy me to the desktop.bttlicense", '0755'
-    end
-
     installer script: {
       executable: "Prevent updates patch.app",
     }
