@@ -4,16 +4,16 @@ cask "adobe-illustrator-mod" do
 
     url "https://github.com/Zenfection/macos/releases/download/1.0/Adobe.Illustrator_26.4.1.dmg"
     name "Adobe Illustrator"
-    desc "Adobe Illustrator"
+    desc "The industry-standard vector graphics software lets you create logos, icons, drawings, typography, and illustrations for print, web, video, and mobile."
     homepage "https://github.com/zenfection/macos"
     
     auto_updates true
 
     installer script: {
-        executable:   "#{staged_path}/Illustrator\ 26.4.1\ U2B\ INSTALLER\ \[RiD\]/Install.app/Contents/MacOS/Install",
+        executable:   "#{staged_path}/Install.app/Contents/MacOS/Install",
         args:         ["--mode=silent"],
         sudo:         true,
         print_stderr: false,
     }
-    pkg "Illustrator 26.4.1 U2B PATCH [RiD].pkg"
+    pkg "patch_26.4.1.pkg"
 end
