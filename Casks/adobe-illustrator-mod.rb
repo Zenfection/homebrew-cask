@@ -1,4 +1,4 @@
-cask "adobe-illustator-mod" do
+cask "adobe-illustrator-mod" do
     version "26.4.1"
     sha256 "3cf7fa0021a0f7ad15a55acd266c9cc69a29c6df26d0d5a84f472ef9b7660ca0"
 
