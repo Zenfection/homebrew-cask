@@ -36,4 +36,4 @@ cask "adobe-acrobat-pro-mod" do
         "~/Library/Preferences/Adobe/Acrobat/",
         "~/Library/Preferences/com.adobe.Acrobat.Pro.plist",
     ]
-  end
+end

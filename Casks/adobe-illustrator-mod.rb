@@ -1,18 +1,16 @@
 cask "adobe-illustrator-mod" do
     version "26.4.1"
-    sha256 "3cf7fa0021a0f7ad15a55acd266c9cc69a29c6df26d0d5a84f472ef9b7660ca0"
+    sha256 "1e27f805e6aed019e25e4456c60832bd4de43589a4914323c41de"
 
-    url "https://github.com/Zenfection/macos/releases/download/1.0/Adobe.Illustrator_26.4.1.dmg"
+    url "https://github.com/Zenfection/macos/releases/download/1.0/Adobe.Illustrator_#{version}.dmg"
     name "Adobe Illustrator"
     desc "The industry-standard vector graphics software lets you create logos, icons, drawings, typography, and illustrations for print, web, video, and mobile."
     homepage "https://github.com/zenfection/macos"
     
     auto_updates true
 
-    pkg "AntiCC_1.7.pkg"
-
     installer script: {
-        executable:   "#{staged_path}/Illustrator 26.4.1 U2B INSTALLER [RiD].dmg/Install.app/Contents/MacOS/Install",
+        executable:   "#{staged_path}/Install.app/Contents/MacOS/Install",
         args:         ["--mode=silent"],
         sudo:         false,
         print_stderr: false,
