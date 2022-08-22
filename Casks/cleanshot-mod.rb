@@ -1,6 +1,6 @@
 cask "cleanshot-mod" do
     version "3.1.1"
-    sha256 "5d78db4e92cdd99baee784b9578df575279ad6920cc6e45b940c22dac8032b2f"
+    sha256 "37d21b317db36d97c6af2580d49f5ce328bf4aa5b9e85c94142a032d2020f155"
   
     url "https://github.com/Zenfection/macos/releases/download/1.0/CleanShot.X_#{version}.zip"
     name "CleanShot"
@@ -19,8 +19,6 @@ cask "cleanshot-mod" do
         sudo:         true,
         print_stderr: false,
     }
-
-    artifact 'pl.maketheweb.cleanshotx.plist', target: "~/Library/Preferences/pl.maketheweb.cleanshotx.plist"
     
     uninstall quit: "pl.maketheweb.cleanshotx"
   
