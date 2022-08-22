@@ -20,7 +20,7 @@ cask "cleanshot-mod" do
         print_stderr: false,
     }
 
-    artifact 'pl.maketheweb.cleanshotx.plist', target: "~/Library/Preferences/com.fatcatsoftware.pledpro.plist"
+    artifact 'pl.maketheweb.cleanshotx.plist', target: "~/Library/Preferences/pl.maketheweb.cleanshotx.plist"
     
     uninstall quit: "pl.maketheweb.cleanshotx"
   
