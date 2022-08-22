@@ -1,6 +1,6 @@
 cask "cleanshot-mod" do
     version "3.1.1"
-    sha256 "37d21b317db36d97c6af2580d49f5ce328bf4aa5b9e85c94142a032d2020f155"
+    sha256 "61609bf8ae39693babf90a19f02b2e5e4a0fb300ab4ddb66a617dc0eecf34f6c"
   
     url "https://github.com/Zenfection/macos/releases/download/1.0/CleanShot.X_#{version}.zip"
     name "CleanShot"
@@ -10,8 +10,6 @@ cask "cleanshot-mod" do
   
     auto_updates true
     depends_on macos: ">= :sierra"
-  
-    app "CleanShot X.app"
   
     installer script: {
         executable:   "install.sh",
