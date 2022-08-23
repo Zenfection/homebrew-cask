@@ -6,7 +6,8 @@ cask "a-better-finder-rename-mod" do
     {
       url "https://github.com/Zenfection/macos/releases/download/1.0/A.Better.Finder.Rename.11_11.51.dmg"
       url "https://github.com/Zenfection/macos/releases/download/1.0/A.Better.Finder.Rename.11_11.51.dmg"
-    }.each do |url|
+    }
+    
     name "A Better Finder Rename"
     desc "Renamer for files, music and photos"
     homepage "https://www.publicspace.net/ABetterFinderRename/"
