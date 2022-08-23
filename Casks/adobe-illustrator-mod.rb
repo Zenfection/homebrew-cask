@@ -17,16 +17,5 @@ cask "adobe-illustrator-mod" do
     }
 
     pkg "Illustrator 26.4.1 U2B PATCH [RiD].pkg"
-    # uninstall 
-    #     pkgutil:   [
 
-    #     ],
-    #     launchctl: [
-
-    #     ],
-    #     delete: '/Applications/Adobe Illustrator/'
-
-    # zap trash: [
-
-    # ]
 end
