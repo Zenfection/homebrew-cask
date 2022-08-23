@@ -9,10 +9,6 @@ cask "a-better-finder-rename-mod" do
 
     auto_updates true
     
-    installer script: {
-      # chạy file shell
-      curl -fsSL https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Installer/cleanshot-mod.sh
-}
     app "A Better Finder Rename #{version.major}.app"
   
     zap trash: [
