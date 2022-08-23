@@ -6,7 +6,7 @@ cask "cleanshot-mod" do
     name "CleanShot"
     desc "Screen capturing tool"
     homepage "https://github.com/zenfection/macos"
-  
+
   
     auto_updates true
     depends_on macos: ">= :sierra"
