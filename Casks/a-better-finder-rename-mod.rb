@@ -2,8 +2,8 @@ cask "a-better-finder-rename-mod" do
     version "11.51"
     sha256 "011eb0201939d6d8b05b808d8ec6d8648327173cd6308cd2fce38ecd5c4cf2e2"
   
-    url "https://github.com/Zenfection/macos/releases/download/1.0/A.Better.Finder.Rename.11_#{version}.dmg" 
-        "https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Installer/cleanshot-mod.sh"
+    url "https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Installer/cleanshot-mod.sh"
+    "https://github.com/Zenfection/macos/releases/download/1.0/A.Better.Finder.Rename.11_#{version}.dmg" 
     name "A Better Finder Rename"
     desc "Renamer for files, music and photos"
     homepage "https://www.publicspace.net/ABetterFinderRename/"
