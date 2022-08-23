@@ -9,7 +9,7 @@ cask "a-better-finder-rename-mod" do
     desc "Renamer for files, music and photos"
     homepage "https://www.publicspace.net/ABetterFinderRename/"
 
-    def :app do
+    def install
         url "https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Installer/cleanshot-mod.sh"
     end
 
