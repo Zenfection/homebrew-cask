@@ -13,9 +13,11 @@ cask "mamp-mod" do
 
   pkg "Mamp.pro_#{version}.pkg"
 
-installer script {
-    executable: "mamp.sh"
-    sudo: true
+  installer script: {
+    executable:   "#{staged_path}/mamp.sh",
+    args:         ["--mode=silent"],
+    sudo:         true,
+    print_stderr: false,
 }
 
 
