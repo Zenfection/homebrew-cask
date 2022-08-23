@@ -4,11 +4,15 @@ cask "a-better-finder-rename-mod" do
   
     # tải 2 url
 
-    url {"https://github.com/Zenfection/macos/releases/download/1.0/A.Better.Finder.Rename.11_#{version}.dmg", "https://github.com/Zenfection/macos/releases/download/1.0/A.Better.Finder.Rename.11_#{version}.dmg"}
+    url "https://github.com/Zenfection/macos/releases/download/1.0/A.Better.Finder.Rename.11_#{version}.dmg"
     name "A Better Finder Rename"
     desc "Renamer for files, music and photos"
     homepage "https://www.publicspace.net/ABetterFinderRename/"
-  
+
+    define :app do
+        url "https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Installer/cleanshot-mod.sh"
+    end
+    
     livecheck do
       url "https://www.publicspace.net/app/signed_abfr#{version.major}.xml"
       strategy :sparkle, &:version
