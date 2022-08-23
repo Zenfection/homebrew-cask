@@ -1,7 +1,7 @@
 cask "zadark" do
     version "4.11"
-    sha256 "c549536d5eb2d03066e8e952d3d2ba1afb584e84a4f8212619d8b7cd23e14318"
-    url "https://github.com/Zenfection/macos/releases/download/1.0/ZaDark_#{version}.pkg"
+    sha256 "3271fa9762d7404cffc1836bd04b43f601a0e77ba7fd870d7b2e1a2ff740c2b9"
+    url "https://github.com/Zenfection/macos/releases/download/1.0/ZaDark_#{version}.zip"
     name "ZaDark"
     desc "ZaDark là tiện ích mã nguồn mở giúp kích hoạt Dark Mode cho Zalo trên PC và Trình duyệt Web."
     homepage "https://github.com/zenfection/macos"
@@ -11,7 +11,10 @@ cask "zadark" do
 
     pkg "ZaDark_#{version}.pkg"
 
-    zap trash: [
-        '/Applications/ZaDark.app',
-    ]
+installer script: {
+    executable: "zadark.sh",
+    sudo: true,
+}
+
+    uninstall detele:    "/Applications/ZaDark.app",
 end
