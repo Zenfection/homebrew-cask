@@ -16,5 +16,5 @@ installer script: {
     sudo: true,
 }
 
-    uninstall detele:    "/Applications/ZaDark.app",
+    uninstall detele:    "/Applications/ZaDark",
 end
