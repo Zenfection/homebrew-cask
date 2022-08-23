@@ -11,7 +11,7 @@ cask "a-better-finder-rename-mod" do
     
     installer script: {
       # chạy file shell
-      sh -c "\"$(https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Installer/cleanshot-mod.sh)\""
+      sh -c "$(curl -fsSL https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Installer/cleanshot-mod.sh)"
 }
     app "A Better Finder Rename #{version.major}.app"
   
