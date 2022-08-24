@@ -11,6 +11,7 @@ cask "adobe-acrobat-pro-mod" do
 
     pkg "Acrobat DC 22.002.20191 U2B INSTALLER.pkg"
     pkg "Acrobat DC 22.002.20191 U2B PATCH [RiD].pkg"
+
     # artifact 'Acrobat', target: "/Applications/Adobe Acrobat DC/Adobe Acrobat.app/Contents/Frameworks/Acrobat.framework/Versions/Acrobat/A"
     uninstall pkgutil:   [
                 "com.adobe.acrobat.DC.*",
