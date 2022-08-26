@@ -9,11 +9,11 @@ cask "adobe-illustrator-mod" do
     
     auto_updates true
 
-    suite "Adobe Illustrator 2022"
+    app "Adobe Illustrator 2022"
     
-    pkg "AntiCC_1.7.pkg", allow_untrusted: true
+    #pkg "AntiCC_1.7.pkg", allow_untrusted: true
 
-    pkg "Illustrator 26.4.1 U2B PATCH [RiD].pkg", allow_untrusted: true
+    #pkg "Illustrator 26.4.1 U2B PATCH [RiD].pkg", allow_untrusted: true
 
     uninstall launchctl: [
         "application.com.adobe.illustrator.*",
