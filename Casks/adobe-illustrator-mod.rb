@@ -9,7 +9,7 @@ cask "adobe-illustrator-mod" do
     
     auto_updates true
 
-    app "Adobe Illustrator 2022"
+    suite "Adobe Illustrator 2022"
     
     pkg "AntiCC_1.7.pkg", allow_untrusted: true
 
