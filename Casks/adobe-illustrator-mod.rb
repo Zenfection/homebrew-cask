@@ -12,9 +12,9 @@ cask "adobe-illustrator-mod" do
     
     pkg "AntiCC_1.7.pkg"
     
-    pkg "Illustrator 26.4.1 U2B PATCH [RiD].pkg"
-    
     app "Adobe Illustrator 2022"
+    
+    pkg "Illustrator 26.4.1 U2B PATCH [RiD].pkg"
 
     uninstall launchctl: [
         "application.com.adobe.illustrator.*",
