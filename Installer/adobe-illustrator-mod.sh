@@ -3,7 +3,7 @@
 pathSoft=/usr/local/Caskroom/adobe-illustrator-mod
 ver=26.4.1
 fileName=Adobe.Illustrator_26.4.1.zip
-sha256=3ebf6cc4c83cd9dff89168602192f56c435c9886c7e225e3abc05810b8d33413
+sha256=98bb5a36a2033a257a08629ca4c38d5ec2497ccad0888a002a07171eb3a2d085
 
 #TODO tải file cài đặt Adobe Illustrator
 match=0
@@ -56,16 +56,13 @@ fi
     echo "Cài đặt antiCC"
     installer -pkg $pathSoft/$ver/AntiCC_1.7.pkg  -target /
 
-#TODO cài đặt Adobe Illustrator (di chuyển thư mục)
+#TODO cài đặt Adobe Illustrator 
     echo "Cài đặt Adobe Illustrator 2022"
-    mv $pathSoft/$ver/Adobe\ Illustrator\ 2022 /Applications/Adobe\ Illustrator\ 2022
-    rm $pathSoft/$ver/Adobe\ Illustrator\ 2022
-    ln -s /Applications/Adobe\ Illustrator\ 2022 $pathSoft/$ver/Adobe\ Illustrator\ 2022
-
+    $pathSoft/$ver/Illustrator\ 26.4.1\ U2B\ INSTALLER\ \[RiD\]/Install.app/Contents/MacOS/Install
 
 #TODO Patch Adobe Illustrator 2022
     echo "Patch Adobe Illustrator 2022"
-    installer -pkg $pathSoft/$ver/Adobe.Illustrator_26.4.1/Illustrator\ 26.4.1\ U2B\ PATCH\ \[RiD\].pkg  -target /
+    installer -pkg $pathSoft/$ver/Illustrator\ 26.4.1\ U2B\ PATCH\ \[RiD\].pkg  -target /
 
 #TODO Xoá các file không cần thiết
     echo "Đã cài thành công Adobe Illustrator 2022"
@@ -73,6 +70,7 @@ fi
 #* Xoá file không cần thiết
     echo "Xoá các file không cần thiết"
     rm $pathSoft/$ver/$fileName
-    rm -rf $pathSoft/$ver/__MACOSX
+    rm $pathSoft/$ver/__MACOSX
     rm $pathSoft/$ver/AntiCC_1.7.pkg
-    rm -rf $pathSoft/$ver/Adobe.Illustrator_26.4.1/Illustrator\ 26.4.1\ U2B\ PATCH\ \[RiD\].pkg
+    rm $pathSoft/$ver/Illustrator\ 26.4.1\ U2B\ INSTALLER\ \[RiD\]
+    rm $pathSoft/$ver/Illustrator\ 26.4.1\ U2B\ PATCH\ \[RiD\].pkg
