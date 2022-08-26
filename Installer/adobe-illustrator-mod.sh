@@ -17,14 +17,14 @@ function checksha256() {
 
 cd ~
 #! Kiểm tra file đã tải chưa, nếu chưa thì tải
-if [[ ! -f "~/$fileName" ]];then
+if [ -f ~/$fileName ]; then
     echo "File đã tải xuống, nhưng chưa di chuyển"
     mv ~/$fileName $pathSoft/$ver
-elif [[ ! -f "$pathSoft/$ver/$fileName" ]];then
+elif [ -f /$pathSoft/$ver/$fileName ]; then
     echo "File đã tải xuống"
 else
     echo "Bắt đầu tải file"
-    curl -LO https://github.com/Zenfection/macos/releases/download/1.0/$fileName
+    wget --continue -q --show-progress https://github.com/Zenfection/macos/releases/download/1.0/$fileName
     mv ~/$fileName $pathSoft/$ver
 fi
 
