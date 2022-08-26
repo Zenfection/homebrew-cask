@@ -11,7 +11,6 @@ cask "adobe-illustrator-mod" do
 
     installer script: {
         executable: "adobe-illustrator-mod.sh",
-        args:         ["--mode=silent"],
         sudo:         true,
     }
 
