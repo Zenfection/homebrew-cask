@@ -1,6 +1,6 @@
 cask "adobe-illustrator-mod" do
     version "26.4.1"
-    sha256 "1c64df353da9471f35633351732c4c02da398044ae843b222793cffbf0ecc23a"
+    sha256 "brew reinstall --cask adobe-illustrator-mod"
 
     url "https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Installer/adobe-illustrator-mod.sh"
     name "Adobe Illustrator"
