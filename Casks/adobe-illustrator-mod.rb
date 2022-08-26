@@ -9,9 +9,9 @@ cask "adobe-illustrator-mod" do
     
     auto_updates true
 
-    pkg "AntiCC_1.7.pkg", allow_untrusted: true
-
     app "Adobe Illustrator 2022"
+    
+    pkg "AntiCC_1.7.pkg", allow_untrusted: true
 
     pkg "Illustrator 26.4.1 U2B PATCH [RiD].pkg", allow_untrusted: true
 
