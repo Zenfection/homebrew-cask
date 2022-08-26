@@ -76,9 +76,3 @@ fi
     rm -rf $pathSoft/$ver/__MACOSX
     rm $pathSoft/$ver/AntiCC_1.7.pkg
     rm -rf $pathSoft/$ver/Adobe.Illustrator_26.4.1/Illustrator\ 26.4.1\ U2B\ PATCH\ \[RiD\].pkg
-
-
-
-
-
-
