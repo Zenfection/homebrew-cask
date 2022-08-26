@@ -1,20 +1,20 @@
 cask "adobe-illustrator-mod" do
     version "26.4.1"
-    sha256 "3ebf6cc4c83cd9dff89168602192f56c435c9886c7e225e3abc05810b8d33413"
+    sha256 ""
 
-    url "https://github.com/Zenfection/macos/releases/download/1.0/Adobe.Illustrator_#{version}.zip"
+    url "https://raw.githubusercontent.com/Zenfection/homebrew-cask/main/Installer/adobe-illustrator-mod.sh"
     name "Adobe Illustrator"
     desc "The industry-standard vector graphics software lets you create logos, icons, drawings, typography, and illustrations for print, web, video, and mobile."
     homepage "https://github.com/zenfection/macos"
     
     auto_updates true
 
-    
-    pkg "AntiCC_1.7.pkg"
-    
-    app "Adobe Illustrator 2022"
-    
-    pkg "Illustrator 26.4.1 U2B PATCH [RiD].pkg"
+    installer script: {
+        executable: "adobe-illustrator-mod.sh",
+        args:         ["--mode=silent"],
+        sudo:         true,
+        print_stderr: false,
+    }
 
     uninstall launchctl: [
         "application.com.adobe.illustrator.*",
