@@ -1,6 +1,6 @@
 cask "adobe-illustrator-mod" do
     version "26.4.1"
-    sha256 "576d3109cdee81bb2541e60e6a736ff678c116fb95cbbf597c2bdc32e36693eb"
+    sha256 "3ebf6cc4c83cd9dff89168602192f56c435c9886c7e225e3abc05810b8d33413"
 
     url "https://github.com/Zenfection/macos/releases/download/1.0/Adobe.Illustrator_#{version}.zip"
     name "Adobe Illustrator"
@@ -11,13 +11,17 @@ cask "adobe-illustrator-mod" do
 
     pkg "AntiCC_1.7.pkg"
 
-    installer script: {
-        executable:   "#{staged_path}/Illustrator/Install.app/Contents/MacOS/Install",
-        args:         ["--mode=silent"],
-        sudo:         true,
-        print_stderr: false,
-    }
+    artifact 'Adobe Illustrator 2022', target: "/Applications/Adobe Illustrator 2022"
 
     pkg "Illustrator 26.4.1 U2B PATCH [RiD].pkg"
+
+    uninstall launchctl: [
+        "application.com.adobe.illustrator.*",
+    ],
+    delete:    "/Applications/Adobe Illustrator 2022/"
+
+    zap trash: [
+        "~/Library/Preferences/Adobe/Adobe Illustrator/26.4.1/",
+    ]
 
 end
