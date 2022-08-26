@@ -7,7 +7,7 @@ ver=26.4.1
 #TODO tải file cài đặt Adobe Illustrator
 echo "Tải file cài đặt"
 #* tải file
-wget https://github.com/Zenfection/macos/releases/download/1.0/Adobe.Illustrator_$ver.zip 
+curl -LO https://github.com/Zenfection/macos/releases/download/1.0/Adobe.Illustrator_$ver.zip 
 #* di chuyển file vào thư mục cài đặt
 mv Adobe.Illustrator_$ver.zip $pathSoft/$ver 
 #* giải nén file
