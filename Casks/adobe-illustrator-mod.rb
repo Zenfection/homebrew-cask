@@ -11,7 +11,7 @@ cask "adobe-illustrator-mod" do
 
     pkg "AntiCC_1.7.pkg"
 
-    artifact 'Adobe Illustrator 2022', target: "/Applications/Adobe Illustrator 2022"
+    app "Adobe Illustrator 2022"
 
     pkg "Illustrator 26.4.1 U2B PATCH [RiD].pkg"
 
