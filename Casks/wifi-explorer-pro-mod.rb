@@ -1,7 +1,7 @@
 cask "wifi-explorer-pro-mod" do
   version "3.5"
   sha256 "0252d7f929907e05b7a7aa776deec4d2d73b0afda9263df19297890f71e102f1"
-  url "https://github.com/Zenfection/macos/releases/download/1.0/WiFi.Explorer.Pro.#{version.major}_#{version}.dmg"
+  url "https://github.com/Zenfection/macos/releases/download/1.0/WiFi.Explorer.Pro.#{version}.dmg"
   name "WiFi Explorer Pro"
   desc "Scan, monitor, and troubleshoot wireless networks"
   homepage "https://github.com/zenfection/macos"
