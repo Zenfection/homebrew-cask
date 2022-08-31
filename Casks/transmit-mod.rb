@@ -1,6 +1,6 @@
 cask "transmit-mod" do
-  version "5.8.8"
-  sha256 "2aecdea99ecf4f5585ce7de4fc52aea1ac7533cd910069f70f315c909ef5cae2"
+  version "5.8.9"
+  sha256 "db16f5ed1023fa99c2a60434bd95c970fb112b985f4ccba0c060732809235a10"
 
   url "https://github.com/Zenfection/macos/releases/download/1.0/Transmit_#{version}.dmg"
   name "Transmit"
