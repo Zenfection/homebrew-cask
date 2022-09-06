@@ -1,6 +1,6 @@
 cask "macdroid-mod" do
     version "1.6"
-    sha256 ""
+    sha256 "a3b9ebb6aebccb0fee01d9edce3a118de5316ce62988fcd9ef49455447fad27e"
 
     url "https://github.com/Zenfection/macos/releases/download/1.0/MacDroid_#{version}.dmg"
     name "MacDroid"
