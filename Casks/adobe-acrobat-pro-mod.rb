@@ -1,8 +1,8 @@
 cask "adobe-acrobat-pro-mod" do
     version "22.002.20191"
-    sha256 "84ef79b8f7c0f61d2d7813b376218705862672c42ac67d5930e818e304bf965e"
+    sha256 :no_check
 
-    url "https://github.com/Zenfection/macos/releases/download/1.0/adobe-illustrator-mod.sh"
+    url "https://github.com/Zenfection/macos/releases/download/1.0/Adobe_Acrobat_DC_#{version}.dmg"
     name "Adobe Acrobat Pro DC"
     desc "View, create, manipulate, print and manage files in Portable Document Format"
     homepage "https://github.com/zenfection/macos"
