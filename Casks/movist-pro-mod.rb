@@ -2,7 +2,7 @@ cask "movist-pro-mod" do
     version "2.8.4"
     sha256 "53f2d39e6befbf4ba0cb072fdaea571fb4d6082e3396c2d8392ab038ea051ca6"
   
-    url "https://github.com/Zenfection/macos/releases/download/1.0/Movist.Pro_#{version}.pkg"
+    url "https://github.com/Zenfection/macos/releases/download/1.0/Movist.Pro_#{version}.dmg"
     name "Movist Pro"
     desc "Media player"
     homepage "https://github.com/zenfection/macos"
