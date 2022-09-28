@@ -12,7 +12,7 @@ cask "elmedia-player-mod" do
     strategy :sparkle
   end
 
-  app "Elmedia Player.app"
+  app "Elmedia Video Player.app"
 
   zap trash: [
     "~/Library/Caches/com.Eltima.ElmediaPlayer",
