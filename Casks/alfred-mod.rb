@@ -1,6 +1,6 @@
 cask "alfred-mod" do
-  version "5.0.3,2083"
-  sha256 "e88c434367da4b02156fcf368ccce4f4c5d6dd12d5f338150e8c8c923516d832"
+  version "5.0.3,2084"
+  sha256 "47b4d0518f0117b4d0fc8f02ecc7611bb5e5d82d743bde528e4ff06a0a26f9bc"
   url "https://github.com/Zenfection/macos/releases/download/1.0/Alfred_#{version.csv.first}_#{version.csv.second}.dmg"
   name "Alfred"
   desc "Application launcher and productivity software"
