@@ -7,7 +7,7 @@ cask "wondershare-uniconverter-mod" do
     desc "Video editing software"
     homepage "https://github.com/zenfection/macos"
   
-    app "Wondershare UniConverter.app"
+    app "Wondershare UniConverter #{version.major}.app"
   
     zap trash: [
       "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.wondershare.video-converter-ultimate.sfl*",
