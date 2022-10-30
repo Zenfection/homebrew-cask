@@ -1,6 +1,6 @@
 cask "textsniper-mod" do
-    version "1.8.0"
-    sha256 "c5b928650a982e033d3da15959e026e8f17b5ba63702c6cea4b51bd38dc9360c"
+    version "1.9.0"
+    sha256 "1982ba9b1e180e88350efa82996de44249f5bbdd1e89d49df2dccadcf5431fe0"
   
     url "https://github.com/Zenfection/macos/releases/download/1.0/TextSniper_#{version}.dmg"
     name "textsniper"
