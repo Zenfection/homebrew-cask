@@ -1,16 +1,11 @@
 cask "sketch-mod" do
-    version "93"
-    sha256 "7effcc9f965f8fb67aabb707cc2d37f0b3db00778a078bc80800826729761f0e"
+    version "94"
+    sha256 "0fe8f36455a1154727ba7565820d261d6b6fab836c8c5f13809fc8ab793533b0"
   
     url "https://github.com/Zenfection/macos/releases/download/1.0/Sketch_#{version}.dmg"
     name "Sketch"
     desc "Digital design and prototyping platform"
     homepage "https://www.sketch.com/"
-  
-    livecheck do
-      url "https://download.sketch.com/sketch-versions.xml"
-      strategy :sparkle
-    end
   
     auto_updates true
     depends_on macos: ">= :big_sur"
