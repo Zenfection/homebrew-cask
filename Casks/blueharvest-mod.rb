@@ -1,4 +1,4 @@
-cask "blueharvest" do
+cask "blueharvest-mod" do
     version "8.1.3"
     sha256 "4632841c06afdb581c698ae51c50e0db86d78d74b294487e09d3a95f5ebdaee8"
 
