@@ -10,7 +10,7 @@ cask "mamp-mod" do
   auto_updates true
   depends_on macos: ">= :sierra"
 
-  pkg "MAMP_MAMP_PRO_#{version}_REPACK.pkg"
+  pkg "MAMP_PRO_#{version}_REPACK.pkg"
 
   postflight do
     set_ownership ["/Applications/MAMP", "/Applications/MAMP PRO"]
