@@ -1,4 +1,4 @@
-cask "airbuddy" do
+cask "airbuddy-mod" do
     version "2.6.3,602"
     sha256 ""
   
