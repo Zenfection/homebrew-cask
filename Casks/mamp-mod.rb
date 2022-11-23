@@ -1,7 +1,7 @@
 cask "mamp-mod" do
   version "6.6.1"
   sha256 :no_check
-  url "https://github.com/Zenfection/macos/releases/download/1.0MAMP_MAMP_PRO_#{version}-REPACK.pkg"
+  url "https://github.com/Zenfection/macos/releases/download/1.0/MAMP_MAMP_PRO_#{version}-REPACK.pkg"
   
   name "MAMP"
   desc "Web development solution with Apache, Nginx, PHP & MySQL"
