@@ -14,7 +14,7 @@ cask "mamp-mod" do
 
   postflight do
     set_ownership ["/Applications/MAMP", "/Applications/MAMP PRO"]
-  end``
+  end
 
   uninstall pkgutil: "de.appsolute.installer.(mamp|mampacticon|mampendinstall|mamppro).pkg"
 end
