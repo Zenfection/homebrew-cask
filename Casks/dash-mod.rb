@@ -1,6 +1,6 @@
 cask "dash-mod" do
-    version "6.3.2"
-    sha256 "7126dcd5bcf908d33860c96831f1dd8bc48a30e076907c52bb3bdc8782ff98e9"
+    version "6.4.0"
+    sha256 "7a6a313fe4317a79ec3abec9b8aad4999e255c113b31b0a4c6060020d424cde9"
     url "https://github.com/Zenfection/macos/releases/download/1.0/Dash_#{version}.dmg"
     name "Dash"
     desc "API documentation browser and code snippet manager"
