@@ -1,6 +1,6 @@
 cask "adguard-mod" do
-    version "2.8.0.1128"
-    sha256 "d1feb418251ea930e17521840ea174def5e24167333ae564ef302dc83872e38e"
+    version "2.9.1.1217"
+    sha256 "bd7e027cbc6b4adca2bb68e16c1846fe099d011cf41f21840036e7a947386efb"
     url "https://github.com/Zenfection/macos/releases/download/1.0/AdGuard_#{version}.dmg"
     name "AdGuard"
     desc "Stand alone ad blocker"

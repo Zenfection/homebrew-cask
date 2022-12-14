@@ -1,6 +1,6 @@
 cask "sensei-mod" do
-    version "1.5.5"
-    sha256 "822057f7736dc34b4b9824f1f5f63cbe0d0866a1a79232e4644b0434956d855d"
+    version "1.5.7"
+    sha256 "0e734a32723b8333f5378fe505ee14c877456631bc9140a2a14616233aa1498f"
   
     url "https://github.com/Zenfection/macos/releases/download/1.0/Sensei_#{version}.dmg"
     name "Sensei"
