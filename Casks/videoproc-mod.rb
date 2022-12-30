@@ -9,5 +9,5 @@ cask "videoproc-mod" do
     auto_updates true
     depends_on macos: ">= :mojave"
 
-    app "VideoProc Converter.app"
+    app "VideoProc Converter 4K.app"
 end
