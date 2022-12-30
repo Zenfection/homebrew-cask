@@ -1,6 +1,6 @@
 cask "elmedia-player-mod" do
-  version "8.8"
-  sha256 "cda988b2753a6094ca094510460c3d1a0bb20ca86ed6cf3517443c943370d561"
+  version "8.11"
+  sha256 "d8455ec683802a3a15a312f8a5eb155ffe6147c1f0c49d72319d67ca7fb9e622"
 
   url "https://github.com/Zenfection/macos/releases/download/1.0/Elmedia_Player_#{version}.dmg"
   name "Elmedia Player"
