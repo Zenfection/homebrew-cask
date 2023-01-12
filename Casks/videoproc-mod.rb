@@ -1,6 +1,6 @@
 cask "videoproc-mod" do
-    version "5.3"
-    sha256 "ac9bcd8251d0e225ac3ea5bb3f560d5dddf6687ae98fe0b7d2538105e59b732d"
+    version "5.4"
+    sha256 "f6a204bc3b5b12b194f90391b84e777b2bb6ad8f0f0e75527a1dc97965990509"
     url "https://github.com/Zenfection/macos/releases/download/1.0/VideoProc.Converter_#{version}.dmg"
     name "VideoProc Convert"
     desc "New video processing software designed to cut, trim, merge, adjust, transcode, edit 4k video with full hardware acceleration."
