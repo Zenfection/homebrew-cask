@@ -1,6 +1,6 @@
 cask "camtasia-mod" do
-    version "2022.5.1"
-    sha256 "0b4eea0bc72043dfaf55090f3641917fd4785e1918440285244223a2a3eaff0f"
+    version "2022.6.1"
+    sha256 "cae8ec98f45be9bba6dc39ffa3293556bb86cdac606a5a7413c97a3a245271cf"
     url "https://github.com/Zenfection/macos/releases/download/1.0/Camtasia_#{version}.dmg"
     name "Camtasia"
     desc "Screen recorder and video editor"
