@@ -1,6 +1,6 @@
 cask "a-better-finder-rename-mod" do
-    version "11.59"
-    sha256 "573b472e6237be86280d6d0a9d9b18ddf92647a76d0904d050c5a41dff4d3200"
+    version "11.60"
+    sha256 "1fd0b1d6bfe11247c384f7990825f6bafa75019f1a3c7472fa83435c8fe25a36"
   
     url "https://github.com/Zenfection/macos/releases/download/1.0/A.Better.Finder.Rename_#{version}.dmg" 
     name "A Better Finder Rename"

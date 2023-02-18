@@ -1,6 +1,6 @@
 cask "bettertouchtool-mod" do
-    version "4.010"
-    sha256 "b2fe236965b902efa9302a9baa1f8646a0a92396fffad6f7f9fee06adc0afd1b"
+    version "4.017"
+    sha256 "d0b85cfdd837460de397d5ed241182dab29a9328edb9ea28b7ae4ddd7963371c"
     
     url "https://github.com/Zenfection/macos/releases/download/1.0/BetterTouchTool_#{version}.dmg"
     name "BetterTouchTool"
@@ -11,7 +11,7 @@ cask "bettertouchtool-mod" do
   
     app "BetterTouchTool.app" 
 
-    artifact 'M4G1C M1K3.bttlicense', target: "/Users/zenfection/Library/Application Support/BetterTouchTool/bettertouchtool.bttlicense"
+    artifact 'license.bettertouchtool', target: "/Users/zenfection/Library/Application Support/BetterTouchTool/bettertouchtool.bttlicense"
 
     # installer script: {
     #   executable: "blockHost.sh",

@@ -1,9 +1,9 @@
 cask "sketchup-mod" do
-    version "2022,22.0.353"
-    sha256 "54f66e21b7c26abf540b2f6383c3fe233de69bc73191a0c5f50668b87214ea82"
+    version "2023,23.0.366"
+    sha256 "26c570c52cb6441568bd96c35a3150a5695704276ed80e1d85b09882864bb78f"
   
     # downloads can be found at https://www.sketchup.com/download/all
-    url "https://github.com/Zenfection/macos/releases/download/1.0/Sketchup.Pro_#{version.csv.first}_#{version.csv.second}.dmg"
+    url "https://github.com/Zenfection/macos/releases/download/1.0/SketchUp_#{version.csv.first}_#{version.csv.second}.dmg"
     name "SketchUp"
     name "SketchUp Make"
     desc "3D design software"
