@@ -1,6 +1,6 @@
 cask "betterzip-mod" do
-  version "5.3.1"
-  sha256 "581536b7fae09148feaf1700cfd1a9718b509c3c7a76762f083d7abffaf331d2"
+  version "5.3.2"
+  sha256 "4521465b24dfd1b987c1da162abaaea5063a4f88460a38db3cff4bb5e9ca84d9"
 
   url "https://github.com/Zenfection/macos/releases/download/1.0/BetterZip_#{version}.dmg"
   name "BetterZip"
