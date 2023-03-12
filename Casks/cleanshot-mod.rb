@@ -11,6 +11,7 @@ cask "cleanshot-mod" do
     auto_updates true
     depends_on macos: ">= :sierra"
   
+    app "CleanShot X.app"
     # installer script: {
     #     executable:   "install.sh",
     #     args:         ["--mode=silent"],
