@@ -2,7 +2,7 @@ cask "cleanshot-mod" do
     version "4.5"
     sha256 "9794a8b781479c7ebcc4643ede8a13b6a0c35633a56bef7754d8ebcd25e5b50e"
   
-    url "https://github.com/Zenfection/macos/releases/download/1.0/CleanShot.X_#{version}.zip"
+    url "https://github.com/Zenfection/macos/releases/download/1.0/CleanShot.X_#{version}.dmg"
     name "CleanShot"
     desc "Screen capturing tool"
     homepage "https://github.com/zenfection/macos"
@@ -11,12 +11,12 @@ cask "cleanshot-mod" do
     auto_updates true
     depends_on macos: ">= :sierra"
   
-    installer script: {
-        executable:   "install.sh",
-        args:         ["--mode=silent"],
-        sudo:         true,
-        print_stderr: false,
-    }
+    # installer script: {
+    #     executable:   "install.sh",
+    #     args:         ["--mode=silent"],
+    #     sudo:         true,
+    #     print_stderr: false,
+    # }
     
     uninstall quit: "pl.maketheweb.cleanshotx"
   
