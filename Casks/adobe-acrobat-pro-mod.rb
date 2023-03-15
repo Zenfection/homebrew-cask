@@ -1,5 +1,5 @@
 cask "adobe-acrobat-pro-mod" do
-    version "22.002.20191"
+    version "23.001.20063"
     sha256 "7fb7e9dd7ef75971ebb02dfe2fe8a924f69671282f7ca0218863a92534743a38"
 
     url "https://github.com/Zenfection/macos/releases/download/1.0/Adobe.Acrobat.Pro.DC_#{version}.dmg"
