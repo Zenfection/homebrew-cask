@@ -9,6 +9,8 @@ cask "adobe-acrobat-pro-mod" do
 
     auto_updates true
 
+    pkg: "Acrobat DC Installer.pkg"
+
     uninstall pkgutil:   [
                 "com.adobe.acrobat.DC.*",
                 "com.adobe.PDApp.AdobeApplicationManager.installer.pkg",
