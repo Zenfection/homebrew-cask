@@ -1,6 +1,6 @@
 cask "sketchup-mod" do
     version "2023,23.0.366"
-    sha256 "26c570c52cb6441568bd96c35a3150a5695704276ed80e1d85b09882864bb78f"
+    sha256 "8f5365736ecac1b5738eb294f8535bc553c379ed238b7b85680ec2a7c7001198"
   
     # downloads can be found at https://www.sketchup.com/download/all
     url "https://github.com/Zenfection/macos/releases/download/1.0/SketchUp_#{version.csv.first}_#{version.csv.second}.dmg"
