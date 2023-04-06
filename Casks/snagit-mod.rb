@@ -1,6 +1,6 @@
 cask "snagit-mod" do
-    version "2023.1.2"
-    sha256 "9692d0cf8cb530bd0bb6180cbaca959ac0969919f84ff2a650eb75df80a5c9f4"
+    version "2023.1.3"
+    sha256 "fb85d51d32227292f2d82db9f26c10f3bda4cf1530524a0c4df8dd31a92a7fd5"
   
     url "https://github.com/Zenfection/macos/releases/download/1.0/Snagit_#{version}.dmg"
     name "Snagit"

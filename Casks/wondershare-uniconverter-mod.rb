@@ -1,6 +1,6 @@
 cask "wondershare-uniconverter-mod" do
-    version "14.2.10.642"
-    sha256 "714577f627a6751cfb8be704dd1b1ec43dc5839fcd0e1c8ab5b0e7f62fc63ff3"
+    version "14.2.13.146"
+    sha256 "89a31b4c3ce39bf1d49da27022d09fae45ebd4e8c2d92db63ad377bf77bf94c9"
   
     url "https://github.com/Zenfection/macos/releases/download/1.0/Wondershare.UniConverter_#{version}.dmg"
     name "UniConverter"
