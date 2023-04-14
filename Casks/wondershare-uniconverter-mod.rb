@@ -17,4 +17,4 @@ cask "wondershare-uniconverter-mod" do
       "~/Library/Preferences/com.Wondershare.Video-Converter-Ultimate.plist",
       "~/Library/Preferences/com.wondershare.helper_compact",
     ]
-  end
+  end``
