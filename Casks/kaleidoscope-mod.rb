@@ -1,6 +1,6 @@
 cask "kaleidoscope-mod" do
-  version "3.8.1"
-  sha256 "95291800559263de8d7d040bb055ee2238f89f8d55de4f93dc8301ede909e77c"
+  version "3.9"
+  sha256 "999b9f5b4922e4e47eebdb312bbb8f7d6bac8a2e61ea4bd9f77cae0b1dbcb2c9"
   url "https://github.com/Zenfection/macos/releases/download/1.0/Kaleidoscope_#{version}.dmg"
   name "Kaleidoscope"
   desc "Spot and merge differences in text and image files or folders"
