@@ -1,6 +1,6 @@
 cask "sitesucker-pro-mod" do
-  version "5.1.4"
-  sha256 "210d7dae73a79b7b8d1c0c709df9c5bf8a0576178bae3fe884d4d36276342f0c"
+  version "5.1.7"
+  sha256 "0c8ea4d6fe8e741abd24eee73284598a08d622e2d13f155b26f86225c518cc74"
   url "https://github.com/Zenfection/macos/releases/download/1.0/SiteSucker.Pro_#{version}.dmg"
 
   name "SiteSucker Pro"
