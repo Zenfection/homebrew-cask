@@ -1,5 +1,5 @@
 cask "alfred-mod" do
-  version "5.1,2137"
+  version "5.1.1,2137"
   sha256 "17b70ed6097b2f95cff874d56753761634f02fc8e51960105e06083ec309e098"
   url "https://github.com/Zenfection/macos/releases/download/1.0/Alfred_#{version.csv.first}_#{version.csv.second}.dmg"
   name "Alfred"

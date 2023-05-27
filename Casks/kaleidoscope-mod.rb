@@ -1,5 +1,5 @@
 cask "kaleidoscope-mod" do
-  version "3.10"
+  version "4.0"
   sha256 "8c3c47ca532ecdf68ce94cf8b337624e316d93d77b3a9c2f82f7985669860e8c"
   url "https://github.com/Zenfection/macos/releases/download/1.0/Kaleidoscope_#{version}.dmg"
   name "Kaleidoscope"
