@@ -1,5 +1,5 @@
 cask "zadark" do
-    version "8.2"
+    version "8.4"
     sha256 "0b623bda5bc0bfc085c21951e040679be1a38918da7f28d07055fdfee6a38385"
     url "https://github.com/Zenfection/macos/releases/download/1.0/ZaDark_#{version}.pkg"
     name "ZaDark"
