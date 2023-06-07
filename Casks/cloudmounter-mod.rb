@@ -2,7 +2,7 @@ cask "cloudmounter-mod" do
   version "4.00"
   sha256 "fef7df0806dae5abfa6cc7cde51fda2463659b8fbd0646aac8c37a912a1fbd48"
 
-  url "https://github.com/Zenfection/macos/releases/download/1.0/CloudMounter_#{version}.dmg",
+  url "https://github.com/Zenfection/macos/releases/download/1.0/CloudMounter_#{version}.dmg"
   name "Eltima CloudMounter"
   desc "Mounts cloud storages as local disks"
   homepage "https://mac.eltima.com/mount-cloud-drive.html"
