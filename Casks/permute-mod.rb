@@ -1,6 +1,6 @@
 cask "permute-mod" do
-  version "3.10.5"
-  sha256 "a0fd24d28f81a93f50f652e53cc4f686ffb003483fcb3d45108d836700405b59"
+  version "3.10.6"
+  sha256 "df983ae4ba293b23dc4bfc7cead3f451ebc624d058f9a6e010c005f862752260"
 
   url "https://github.com/Zenfection/macos/releases/download/1.0/Permute_#{version}.dmg"
   name "Permute"
