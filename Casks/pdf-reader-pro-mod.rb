@@ -1,6 +1,6 @@
 cask "pdf-reader-pro-mod" do
-  version "2.9.1"
-  sha256 "27b5ec1e1f5f445d13fdb0e8f829f3bacf6bc034730507dbe6dfd3047b969416"
+  version "2.9.2.0"
+  sha256 "6dc8cfc9e44798853617236397a142d369d088807e8461404961975fa53711df"
 
   url "https://github.com/Zenfection/macos/releases/download/1.0/PDF.Reader.Pro_#{version}.dmg"
   name "PDF Reader Pro"
