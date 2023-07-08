@@ -2,7 +2,7 @@ cask "sketch-mod" do
     version "97.2"
     sha256 "4a4423c20716506d8f655eb5ffb2807341c306e36f1ca7e632e3adbaec5f5e06"
   
-    url "https://github.com/Zenfection/macos/releases/download/1.0/Sketch_#{version}.dmg"
+    url "https://dl.dropboxusercontent.com/scl/fi/jeynq6pw8febp5o8getr6/Sketch_97.2.dmg?rlkey=d6z2mg1vt45z3b9u0jo20ssef&dl=0"
     name "Sketch"
     desc "Digital design and prototyping platform"
     homepage "https://www.sketch.com/"
