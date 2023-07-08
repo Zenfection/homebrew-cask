@@ -1,8 +1,8 @@
 cask "cleanshot-mod" do
     version "4.5.1"
-    sha256 "87867f055c973b6c2ff1aeae96c336bf86077d72936c9535d61ec4c79a40d86b"
+    sha256 "716339ab54e7893e9d9b58d4f99ff1746ad1b37b873e62ba1dde981b7a69ad92"
   
-    url "https://github.com/Zenfection/macos/releases/download/1.0/CleanShot.X_#{version}.dmg"
+    url "https://dl.dropboxusercontent.com/scl/fi/vtuphw54t8b7cq1ak8yo6/CleanShot-X-v4.5.1.dmg?rlkey=ldalgkecxjzr9v13jw3hffo4q&dl=0"
     name "CleanShot"
     desc "Screen capturing tool"
     homepage "https://github.com/zenfection/macos"

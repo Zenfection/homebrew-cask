@@ -2,7 +2,7 @@ cask "a-better-finder-rename-mod" do
     version "11.61"
     sha256 "b751788cdc286d07980b7b77433903a511d02fd62ac04c0ce633f33551c81f4e"
   
-    url "https://github.com/Zenfection/macos/releases/download/1.0/A.Better.Finder.Rename_#{version}.dmg" 
+    url "https://dl.dropboxusercontent.com/s/a15g60h6zxvmkgk/AdGuard_2.10.0.1239.dmg?dl=0" 
     name "A Better Finder Rename"
     desc "Renamer for files, music and photos"
     homepage "https://www.publicspace.net/ABetterFinderRename/"

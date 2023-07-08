@@ -1,8 +1,8 @@
 cask "airbuddy-mod" do
-    version "2.6.3,602"
-    sha256 ""
+    version "2.6.2"
+    sha256 "1556944621f0326e754a9371f109b8361693261f7ec4222edf43c20a7662ead2"
   
-    url "https://github.com/Zenfection/macos/releases/download/1.0/AirBuddy_#{version}.dmg"
+    url "https://dl.dropboxusercontent.com/scl/fi/w2xd7ylwqx5kbz6csiogm/Airbuddy_2.6.2.dmg?rlkey=sgy56e84yodw1n08ddss3dssc&dl=0"
     name "AirBuddy"
     desc "AirPods companion app"
     homepage "https://airbuddy.app/"
