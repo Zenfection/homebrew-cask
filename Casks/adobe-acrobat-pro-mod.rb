@@ -2,7 +2,7 @@ cask "adobe-acrobat-pro-mod" do
     version "23.001.20063"
     sha256 "7fb7e9dd7ef75971ebb02dfe2fe8a924f69671282f7ca0218863a92534743a38"
 
-    url "https://github.com/Zenfection/macos/releases/download/1.0/Adobe.Acrobat.Pro.DC_#{version}.dmg"
+    url "https://dl.dropboxusercontent.com/s/5j96fgy61dxpeof/Adobe.Acrobat.Pro.DC_23.001.20063.dmg?dl=0"
     name "Adobe Acrobat Pro DC"
     desc "View, create, manipulate, print and manage files in Portable Document Format"
     homepage "https://github.com/zenfection/macos"

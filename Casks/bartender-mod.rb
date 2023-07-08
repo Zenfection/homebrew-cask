@@ -1,7 +1,7 @@
 cask "bartender-mod" do
   version "4.2.21"
   sha256 "630af319a0ed75b81ffba471ce41afdfa6434a81cac7b140478d9105fb8fdbe4"
-  url "https://github.com/Zenfection/macos/releases/download/1.0/Bartender.#{version.major}_#{version}.dmg"
+  url "https://dl.dropboxusercontent.com/scl/fi/9fr84xlauvggxzmarvvh7/Bartender.4_4.2.21.dmg?rlkey=coa3lbk3ofidj0ls35s3lm2kt&dl=0"
 
   name "Bartender"
   desc "Menu bar icon organizer"
