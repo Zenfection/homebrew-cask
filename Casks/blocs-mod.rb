@@ -1,6 +1,6 @@
 cask "blocs-mod" do
-    version "5.0.8"
-    sha256 "63eb97b4c886722bbe2f975afde97acac27d7075ec0f720876f1989f72dec0f6"
+    version "5.1.0"
+    sha256 "f9258acb39a50148b2ea1f1464f21a311f53d3170a919cc1dd7833914d6b3a50"
   
     url "https://github.com/Zenfection/macos/releases/download/1.0/Blocs_#{version}.dmg"
     name "Blocs"
