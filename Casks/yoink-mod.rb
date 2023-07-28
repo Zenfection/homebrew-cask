@@ -1,7 +1,7 @@
 cask "yoink-mod" do
-    version "3.6.84"
-    sha256 "7ba833b254b9a55f4ec034a435b409a75b600e9746a20190506f63d91cc613bb"
-    url "https://github.com/Zenfection/macos/releases/download/1.0/Yoink_#{version}.dmg"
+    version "3.6.85"
+    sha256 "50d9ca58c210a2c74249f2b478bee0a1fee1ffff80f7903e3c0be0a3bc7d56da"
+    url "https://dl.dropboxusercontent.com/scl/fi/d7re3goxrj4q7m0jv34w5/Yoink-v3.6.85.dmg?rlkey=a8tc0zlssqtuvkq8d28f0sydj&dl=0"
     name "Yoink"
     desc "Yoink simplifies and improves drag and drop between windows, apps, spaces and fullscreen apps. The app has been repeatedly featured by on the Mac App Store in numerous categories and was recommended by John Gruber of DaringFireball and Federico Viticci of MacStories."
     homepage "https://github.com/zenfection/macos"
