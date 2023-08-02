@@ -1,4 +1,4 @@
-cask "aldente-mod" do
+cask "sha" do
     version "1.22.2"
     sha256 "cf9b7259b1162fefbab85b9e9f023db5a91ba539a31a501e5e2934a8a4b6011e"
 
