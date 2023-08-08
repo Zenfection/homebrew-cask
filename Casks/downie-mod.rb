@@ -2,7 +2,7 @@ cask "downie-mod" do
   version "4.6.24"
   sha256 "21eabbf84f842f0081a3b098dec369684a0455d520cb2750da1fd20b56e0a437"
 
-  url "https://www.dropbox.com/s/uxdahr07gdyl4d8/Downie_4_4.6.24.dmg?dl=0"
+  url "https://dl.dropboxusercontent.com/s/uxdahr07gdyl4d8/Downie_4_4.6.24.dmg?dl=0"
   name "Downie"
   desc "Downloads videos from different websites"
   homepage "https://github.com/zenfection/macos"

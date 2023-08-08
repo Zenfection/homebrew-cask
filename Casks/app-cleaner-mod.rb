@@ -1,6 +1,6 @@
 cask "app-cleaner-mod" do
     version "8.2.2"
-    sha256 "https://www.dropbox.com/s/taobv56cd54b099/App_Cleaner_8.2.2.dmg?dl=0"
+    sha256 "https://dl.dropboxusercontent.com/s/taobv56cd54b099/App_Cleaner_8.2.2.dmg?dl=0"
 
     url ""
     name "Nektony App Cleaner & Uninstaller"
