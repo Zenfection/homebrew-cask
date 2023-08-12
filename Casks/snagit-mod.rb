@@ -1,12 +1,12 @@
 cask "snagit-mod" do
-    version "2023.1.3"
-    sha256 "fb85d51d32227292f2d82db9f26c10f3bda4cf1530524a0c4df8dd31a92a7fd5"
-  
-    url "https://github.com/Zenfection/macos/releases/download/1.0/Snagit_#{version}.dmg"
+    version "2023.2.1"
+    sha256 "b474ee056ed6de17e90d196270ec0c4874e421b101673d8585ba06c5f900b5f5"
+
+    url "https://www.dropbox.com/scl/fi/rvbqpybklmmh2bq58o1p2/Snagit_2023.2.1.dmg?rlkey=a6fu0cct5ravncmbc8x485jcq&dl=0"
     name "Snagit"
     desc "Screen capture software"
     homepage "https://github.com/zenfection/macos"
-  
+
     livecheck do
       url "https://www.techsmith.com/api/v/1/products/getallversions/100"
       strategy :page_match do |page|
@@ -14,11 +14,11 @@ cask "snagit-mod" do
         "20#{v["Major"]}.#{v["Minor"]}.#{v["Maintenance"]}"
       end
     end
-  
+
     depends_on macos: ">= :big_sur"
-  
+
     app "Snagit #{version.major}.app"
-  
+
     zap trash: [
       "~/Library/Caches/com.TechSmith.Snagit*",
       "~/Library/Group Containers/*.com.techsmith.snagit",
