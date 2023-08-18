@@ -1,8 +1,8 @@
 cask "sublime-text-mod" do
-  version "4151"
-  sha256 "b539a9ccf52adffe2fbd54e1eca8a9fa96f45942703fd3b4209d57933db158db"
+  version "4154"
+  sha256 "d43284ffbe1b4b0c376c5d8a5201cd7a0f2e6ec5eacaf2d86cd62103b795dfda"
 
-  url "https://dl.dropboxusercontent.com/s/uiw2rl7h7jb5fus/Sublime_Text_Build_4151.dmg?dl=0"
+  url "https://dl.dropboxusercontent.com/scl/fi/z2mfn0dex4zbovvpjmh2x/Sublime_Text_Build_4154.dmg?rlkey=u0cfmhty3ee0alclm58e3ajg2&dl=0"
   name "Sublime Text"
   desc "Text editor for code, markup and prose"
   homepage "https://github.com/zenfection/macos"

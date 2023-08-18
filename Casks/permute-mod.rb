@@ -1,8 +1,8 @@
 cask "permute-mod" do
-  version "3.10.7"
-  sha256 "cf26bfe2b2001479c64463c8254d7f69146cb6e95008debe1b0e07627aae0f28"
+  version "3.10.8"
+  sha256 "ffc5a3c7977c094992edaa796ec32b2525ea46f2d76beb0d55e5ae2cc4f770aa"
 
-  url "https://dl.dropboxusercontent.com/s/ja3ql8s3nft4rg9/Permute_3.10.7.dmg?dl=0"
+  url "https://dl.dropboxusercontent.com/s/q6l6s2ilwwwchz1/Permute%203%203.10.8.dmg?dl=0"
   name "Permute"
   desc "Converts and edits video, audio or image files"
   homepage "https://github.com/zenfection/macos"

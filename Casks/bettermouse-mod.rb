@@ -1,8 +1,8 @@
 cask "bettermouse-mod" do
-  version "1.5.3792"
-  sha256 "638e95cd509124a32b67db5e97fe7afea6c412fa419eb02b007ce6c9655363d6"
+  version "1.5.3963"
+  sha256 "81e586a4902792269ca91c0fd6425f2c9eefc5222dfd0c5157da7890b2994944"
 
-  url "https://dl.dropboxusercontent.com/scl/fi/7hokfl8cquk0ilgwdzx6j/BetterMouse-v1.5-3792.dmg?rlkey=3h5uojhapkg0pb8z5ppckdorb&dl=0"
+  url "https://dl.dropboxusercontent.com/scl/fi/7yph4x0h5rul8ts2zj75f/BetterMouse_1.5_-3963.dmg?rlkey=xas1npavkazsjud5h9ogxq7su&dl=0"
   name "BetterMouse"
   desc "Utility improving 3rd party mouse performance and functionalities"
   homepage "https://better-mouse.com/"

@@ -1,20 +1,20 @@
 cask "dash-mod" do
-    version "6.4.0"
-    sha256 "7a6a313fe4317a79ec3abec9b8aad4999e255c113b31b0a4c6060020d424cde9"
-    url "https://github.com/Zenfection/macos/releases/download/1.0/Dash_#{version}.dmg"
+    version "7.0.0"
+    sha256 "7cc294b50ad2d6c0752f3a0b7215d8710f5a83dfd94eed0a6d605eac8f523808"
+    url "https://dl.dropboxusercontent.com/scl/fi/9i2kgicetcqd08o9uj5uo/Dash_7_0_0.dmg?rlkey=m5574pqocbt5fqmxvtlpohg4n&dl=0"
     name "Dash"
     desc "API documentation browser and code snippet manager"
     homepage "https://github.com/zenfection/macos"
-  
+
     livecheck do
       url "https://kapeli.com/Dash#{version.major}.xml"
       strategy :sparkle
     end
-  
+
     auto_updates true
     depends_on macos: ">= :mojave"
     app "Dash.app"
-  
+
     zap trash: [
       "~/Library/Application Support/Dash",
       "~/Library/Application Support/com.kapeli.dashdoc",
