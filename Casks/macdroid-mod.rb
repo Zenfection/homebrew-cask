@@ -2,7 +2,7 @@ cask "macdroid-mod" do
     version "1.8"
     sha256 "bc277041d184a1455f0b17fd3d45d9a0ef4fb82502bff35b61dd8d3eb494453d"
 
-    url "https://www.dropbox.com/scl/fi/w8w0q1hob33vya100knl8/MacDroid-1.8.dmg?rlkey=xun3nej1z82c9kl9plqt435yt&dl=0"
+    url "https://dl.dropboxusercontent.com/scl/fi/w8w0q1hob33vya100knl8/MacDroid-1.8.dmg?rlkey=xun3nej1z82c9kl9plqt435yt&dl=0"
     name "MacDroid"
     desc "Connect to your Android devices"
     homepage "https://www.macdroid.app/"
