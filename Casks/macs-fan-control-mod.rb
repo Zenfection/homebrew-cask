@@ -1,8 +1,8 @@
 cask "macs-fan-control-mod" do
     version "1.5.15"
-    sha256 "ad52c6aa5ceef9d49026986d363e5fb2048c1aba3c26047e96d72bd87440c82d"
+    sha256 "4689e4bc72a9209ec62514b93dde9075ecb6805b88b47c9e71271384174d045f"
 
-    url "https://github.com/Zenfection/macos/releases/download/1.0/Macs.Fan.Control_#{version}.dmg"
+    url "https://dl.dropboxusercontent.com/scl/fi/gm24cpy0frc7bunozlr8x/Macs-Fan-Control-Pro-v1.5.16.dmg?rlkey=zji5h6t0vg342bsx3lao3okq9&dl=0"
     name "Macs Fan Control"
     desc "Controls and monitors all fans on Apple computers"
     homepage "https://crystalidea.com/macs-fan-control"

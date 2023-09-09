@@ -1,16 +1,16 @@
 cask "sketchup-mod" do
-    version "2023,23.0.418"
-    sha256 "0668a34f459aaf9fa3b2bf6111844d87772e96052437c755d9014dcde4125dac"
-  
+    version "2023,23.1.314"
+    sha256 "8afa6c8dbd2ce4d1ba439e43c3236a432dd81d90ad38d26013b40f6beb1ea0fe"
+
     # downloads can be found at https://www.sketchup.com/download/all
-    url "https://github.com/Zenfection/macos/releases/download/1.0/SketchUp_#{version.csv.first}_#{version.csv.second}.dmg"
+    url "https://dl.dropboxusercontent.com/s/87av4b43ei97fqn/SketchUp%20Pro%202023%20v23.1.314.dmg?dl=0"
     name "SketchUp"
     name "SketchUp Make"
     desc "3D design software"
     homepage "https://github.com/zenfection/macos"
-  
+
     suite "SketchUp #{version.csv.first}"
-  
+
     zap trash: [
       "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.sketchup.sketchup.#{version.csv.first}.sfl*",
       "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/com.sketchup.stylebuilder.#{version.csv.first}.sfl*",
@@ -22,7 +22,7 @@ cask "sketchup-mod" do
       "~/Library/Preferences/com.sketchup.SketchUp.#{version.csv.first}.plist",
       "~/Library/Preferences/Trimble.SketchUp-Helper.plist",
     ]
-  
+
     caveats do
       discontinued
     end
