@@ -2,7 +2,7 @@ cask "affinity-publisher-mod" do
   version "2.2.0"
   sha256 "c8a7e1390905431e83ed621ed99d11a3457133156eda5b34ecda360920fa11e4"
 
-  url "https://www.dropbox.com/s/bnqlu17h6bg6bv5/Affinity%20Publisher%202%202.2.0.dmg?dl=0"
+  url "https://dl.dropboxusercontent.com/s/bnqlu17h6bg6bv5/Affinity%20Publisher%202%202.2.0.dmg?dl=0"
   name "Affinity Publisher #{version.major}"
   desc "Professional desktop publishing software"
   homepage "https://affinity.serif.com/en-us/publisher/"

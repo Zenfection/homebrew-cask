@@ -2,7 +2,7 @@ cask "soundsource-mod" do
     version "5.6.1"
     sha256 "7beaa1a99b1d2cc855be5f71526033f36f0843aacaa60792ed43960066b87201"
 
-    url "https://www.dropbox.com/s/wete4vqvndhnier/SoundSource%20v5.6.1g.dmg?dl=0"
+    url "https://dl.dropboxusercontent.com/s/wete4vqvndhnier/SoundSource%20v5.6.1g.dmg?dl=0"
     name "SoundSource"
     desc "Sound and audio controller"
     homepage "https://github.com/zenfection/macos"

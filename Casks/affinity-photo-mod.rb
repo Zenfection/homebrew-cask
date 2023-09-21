@@ -2,7 +2,7 @@ cask "affinity-photo-mod" do
   version "2.2.0"
   sha256 "15011b4931119e5d8101969ccabe9331afc5b6dba93b9f2b41c7d4a23963c411"
 
-  url "https://www.dropbox.com/s/5f7chc7m6sh7m9b/Affinity%20Photo%202%202.2.0.dmg?dl=0"
+  url "https://dl.dropboxusercontent.com/s/5f7chc7m6sh7m9b/Affinity%20Photo%202%202.2.0.dmg?dl=0"
   name "Affinity Photo #{version.major}"
   desc "Professional image editing software"
   homepage "https://affinity.serif.com/en-us/photo/"

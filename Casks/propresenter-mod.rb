@@ -2,7 +2,7 @@ cask "propresenter-mod" do
   version "7.14"
   sha256 "27824bd82f29d6d8be5e59da76a04b8de5dc833dc67b23027bae16eb26edaf71"
 
-  url "https://www.dropbox.com/s/2k3fooni8erflit/ProPresenter%207.14.dmg?dl=0"
+  url "https://dl.dropboxusercontent.com/s/2k3fooni8erflit/ProPresenter%207.14.dmg?dl=0"
   name "ProPresenter"
   desc "Presentation and production application for live events"
   homepage "https://www.renewedvision.com/propresenter.php"
