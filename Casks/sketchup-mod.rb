@@ -1,9 +1,8 @@
 cask "sketchup-mod" do
-    version "2023,23.1.314"
-    sha256 "8afa6c8dbd2ce4d1ba439e43c3236a432dd81d90ad38d26013b40f6beb1ea0fe"
+    version "2023,23.1.318"
+    sha256 "b40b8eeae3a68fc845b6c6de7601ca3a6a74efd2ae650be0a30c8ca9736d8302"
 
-    # downloads can be found at https://www.sketchup.com/download/all
-    url "https://dl.dropboxusercontent.com/s/87av4b43ei97fqn/SketchUp%20Pro%202023%20v23.1.314.dmg?dl=0"
+    url "https://www.dropbox.com/s/1pctvlag5f3fdkr/SketchUpPro%202023-1-318-110.dmg?dl=0"
     name "SketchUp"
     name "SketchUp Make"
     desc "3D design software"
