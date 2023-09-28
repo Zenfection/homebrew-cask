@@ -1,8 +1,8 @@
 cask "sketch-mod" do
-    version "98"
-    sha256 "48fe4121e270620bed42d375bdd6d53986972e71381b620894a8e4a528aaec5c"
+    version "98.3"
+    sha256 "01a910ab134bddc42daaa5fecbde323461289bc2dbeb62b0d972a68f70eb8468"
 
-    url "https://dl.dropboxusercontent.com/scl/fi/yruumcsab0px967akx9cl/Sketch-98.dmg?rlkey=7yfw0a8vvipusuwqow9hke49m&dl=0"
+    url "https://dl.dropboxusercontent.com/s/gnnnsfy8qk7q24p/Sketch%2098.3.dmg?dl=0"
     name "Sketch"
     desc "Digital design and prototyping platform"
     homepage "https://www.sketch.com/"

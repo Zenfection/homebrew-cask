@@ -1,7 +1,7 @@
 cask "sitesucker-pro-mod" do
-  version "5.1.11"
-  sha256 "52a9ce6db96a9a177db2d0c7db13b1f3c9d86a6a95e8b020d0b0004438bcbdb5"
-  url "https://dl.dropboxusercontent.com/scl/fi/b4irzf7s8ljrhojik3tbq/SiteSucker_5.1.11.dmg?rlkey=fflhpeuwhdtv942xeah1qnkkp&dl=0"
+  version "5.1.12"
+  sha256 "d8e279d25574a271d3857939159315d1f39021635d25b250f370b87c5d99498b"
+  url "https://dl.dropboxusercontent.com/s/trhiqa8zdxkofhb/SiteSucker%20Pro%205.1.12.dmg?dl=0"
 
   name "SiteSucker Pro"
   desc "Website downloader tool"

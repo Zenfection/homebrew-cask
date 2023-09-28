@@ -1,8 +1,8 @@
 cask "snagit-mod" do
-    version "2023.2.1"
-    sha256 "b474ee056ed6de17e90d196270ec0c4874e421b101673d8585ba06c5f900b5f5"
+    version "2023.2.3"
+    sha256 "64497ffc888e59b092836729c422514da55a0453a259a39c3ee971e46440cef4"
 
-    url "https://dl.dropboxusercontent.com/scl/fi/rvbqpybklmmh2bq58o1p2/Snagit_2023.2.1.dmg?rlkey=a6fu0cct5ravncmbc8x485jcq&dl=0"
+    url "https://dl.dropboxusercontent.com/s/75gbciobqjpz7da/Snagit%202023.2.3.dmg?dl=0"
     name "Snagit"
     desc "Screen capture software"
     homepage "https://github.com/zenfection/macos"
