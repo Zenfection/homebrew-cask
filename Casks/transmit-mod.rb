@@ -1,8 +1,8 @@
 cask "transmit-mod" do
-  version "5.10.1"
-  sha256 "c06ef11fb39d86060ffcb4628947ad8260ddfc786c0989a84556e50cb02c53f8"
+  version "5.10.2"
+  sha256 "5353ee330c0703b497f2fa87bec594f1cbd7ee358071c2ea91ec4025badc8eec"
 
-  url "https://dl.dropboxusercontent.com/s/pin0xctk5axjlss/Transmit%205.10.1.dmg?dl=0"
+  url "https://dl.dropboxusercontent.com/s/s40yqdavsgsrxgn/Transmit%205.10.2.dmg?dl=0"
   name "Transmit"
   desc "File transfer application"
   homepage "https://github.com/zenfection/macos"

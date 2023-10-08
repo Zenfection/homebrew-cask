@@ -1,8 +1,8 @@
 cask "pdf-reader-pro-mod" do
-  version "2.9.6"
-  sha256 "4ccab6a43b35a65ab08d557b9ebe5d560d3e1c0310dc225afcea86336c246b05"
+  version "2.9.7"
+  sha256 "e1a6ac994d8697f0bbe7eb5f065c703523c867711c9974a6572a46346b7ad016"
 
-  url "https://dl.dropboxusercontent.com/s/2c5p94l50764us7/PDF_Reader_Pro_2.9.6.dmg?dl=0"
+  url "https://dl.dropboxusercontent.com/s/5vhmjlvy2ket01c/PDF%20Reader%20Pro%202.9.7.0.dmg?dl=0"
   name "PDF Reader Pro"
   desc "Read, annotate, edit, convert, create, OCR, fill forms and sign PDFs"
   homepage "https://github.com/zenfection/macos"

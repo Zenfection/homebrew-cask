@@ -1,8 +1,8 @@
 cask "fsnotes-mod" do
-  version "6.4.1"
-  sha256 "d5a1c323aee6d7a9e34999c9c2132a757adcdd835e2be4183054cd691c498d15"
+  version "6.4.2"
+  sha256 "b8af01a799fc94652776c0b7d747cd6742dc0cb41a8b5f57878ee2768c9db2b4"
 
-  url "https://dl.dropboxusercontent.com/scl/fi/xf91fo7a4eqg2uckbjov6/FSNotes_6.4.1.dmg?rlkey=vetz9o5bf85pqovxo2fzehm6r&dl=0"
+  url "https://dl.dropboxusercontent.com/s/699clqsnrpr6m9z/FSNotes%206.4.2.dmg?dl=0"
   name "FSNotes"
   desc "Notes manager"
   homepage "https://fsnot.es/"

@@ -1,8 +1,8 @@
 cask "app-cleaner-mod" do
-    version "8.2.2"
-    sha256 "2bd7cbf296b01fcad32fb3fc74a3494f6000d1aac4ef8ac1d765023efa37efec"
+    version "8.2.3"
+    sha256 "8f4afa9b3d9d28fc868175c6db66bf1cd82449f32ae2d0bbeab6195c10a4f162"
 
-    url "https://dl.dropboxusercontent.com/s/taobv56cd54b099/App_Cleaner_8.2.2.dmg?dl=0"
+    url "https://dl.dropboxusercontent.com/s/ya9357rs994xuds/App%20Cleaner%208.2.3.dmg?dl=0"
     name "Nektony App Cleaner & Uninstaller"
     desc "Uninstaller and cleaning assistant"
     homepage "https://nektony.com/mac-app-cleaner"
