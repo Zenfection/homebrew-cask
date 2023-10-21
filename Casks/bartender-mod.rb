@@ -1,7 +1,7 @@
 cask "bartender-mod" do
-  version "5.0.39"
-  sha256 "0186f3501f4ec75892a51bd68da064e7fbb44247b25cf4324f490b4410c35dac"
-  url "https://dl.dropboxusercontent.com/s/gj7cclo2i7whsqe/Bartender%205%205.0.39.dmg?dl=0"
+  version "5.0.41"
+  sha256 "c77048593d66eee468e7877e456d3ddf59a77d985d52e8b6262eff5e81b0441d"
+  url "https://dl.dropboxusercontent.com/s/rxcukrba49up2e4/Bartender%205.0.41.dmg?dl=0"
 
   name "Bartender"
   desc "Menu bar icon organizer"
