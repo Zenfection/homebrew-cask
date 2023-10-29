@@ -2,7 +2,7 @@ cask "ithoughtsx-mod" do
   version "9.4.0"
   sha256 "1b0d025e5dc155d2ee14629856c2198bc7a233598166810639586b7a7142e575"
 
-  url "https://dl.dropboxusercontent.com/scl/fi/fv9tsd1v7op89yusvrhua/iThoughtsX-9.4.dmg?rlkey=vzivizhppyebz5yzy1ll5rzw1&dl=0",
+  url "https://github.com/Zenfection/macos/releases/download/1.0/iThoughtsX_#{version}.dmg",
   name "iThoughtsX"
   desc "Mind mapping tool"
   homepage "https://www.toketaware.com/ithoughts-osx"

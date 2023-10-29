@@ -2,7 +2,7 @@ cask "blocs-mod" do
     version "5.1.2"
     sha256 "e06cf382accba9a06871ec93f6019130fac024be1f4710a384965305a16e6900"
 
-    url "https://dl.dropboxusercontent.com/scl/fi/3n86s2jwvofi36zn0ldzu/Blocs-5.1.2.dmg?rlkey=iacet2g8ibw30bxughk1oyw1x&dl=0"
+    url "https://github.com/Zenfection/macos/releases/download/1.0/Blocs_#{version}.dmg"
     name "Blocs"
     desc "Visual web design software"
     homepage "https://github.com/zenfection/macos"

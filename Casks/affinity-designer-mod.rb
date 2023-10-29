@@ -2,7 +2,7 @@ cask "affinity-designer-mod" do
   version "2.2.0"
   sha256 "c5bf23ce26a7fe77fa47bfb3d3a8e5063c3bd8f9ae72c3cf8e39e17a0b748a51"
 
-  url "https://dl.dropboxusercontent.com/s/muc4sgp8qe7wdat/Affinity%20Designer%202%202.2.0.dmg?dl=0"
+  url "https://github.com/Zenfection/macos/releases/download/1.0/Affinity.Designer_#{version}.dmg"
   name "Affinity Designer #{version.major}"
   desc "Professional graphic design software"
   homepage "https://affinity.serif.com/en-us/designer/"

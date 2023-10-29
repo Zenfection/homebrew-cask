@@ -2,7 +2,7 @@ cask "textsniper-mod" do
     version "1.10.1"
     sha256 "aea37c1231d1c7275ef035fea4a74641f954744c315203cb21f777bcf82dff7f"
 
-    url "https://dl.dropboxusercontent.com/s/wpf7fi3mtpe94to/TextSniper%201.10.1.dmg?dl=0"
+    url "https://github.com/Zenfection/macos/releases/download/1.0/TextSniper_#{version}.dmg"
     name "textsniper"
     desc "Extract text from images and other digital documents in seconds"
     homepage "https://textsniper.app/"

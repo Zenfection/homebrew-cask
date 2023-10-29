@@ -5,7 +5,7 @@ cask "drawio-mod" do
     # sha256 arm:   "d676ba1334c7c6f6e5883a51df090ee9a530c245586f6cf19f0fed8488a04aec",
     #        intel: "a03f404eafebaf7d2fbcd3f787f3ae8da9abbee54df8fdff359e782d66482306"
     sha256 "b2904944e5f5e2ee6400a68a221951b493a0852c3aca86f6460d6e16ec709a3a"
-    url "https://dl.dropboxusercontent.com/scl/fi/8kc5t1j7n6voxtml362m8/Draw.io-v21.6.8.dmg?rlkey=j0cb12yrx6ds62xp29yqxynvu&dl=0",
+    url "https://github.com/Zenfection/macos/releases/download/1.0/Draw.io_#{version}.dmg",
     name "draw.io Desktop"
     desc "Online diagram software"
     homepage "https://www.diagrams.net/"

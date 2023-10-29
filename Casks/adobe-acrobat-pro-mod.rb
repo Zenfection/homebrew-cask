@@ -2,14 +2,14 @@ cask "adobe-acrobat-pro-mod" do
     version "2023.003.20244"
     sha256 "f69bfd5614e703d1e86d8118dbb4786d9f0a0dc3b41580b6406dff293d45fcd4"
 
-    url "https://dl.dropboxusercontent.com/s/epbw859j7ejwky3/Adobe_Acrobat_Pro_DC_23_003_20244_Torrentmac.net.dmg?dl=0"
+    url "https://github.com/Zenfection/macos/releases/download/1.0/Adobe.Acrobat.Pro.DC.#{version}.dmg"
     name "Adobe Acrobat Pro DC"
     desc "View, create, manipulate, print and manage files in Portable Document Format"
     homepage "https://github.com/zenfection/macos"
 
     auto_updates true
 
-    pkg "Acrobat DC Installer.pkg"
+    pkg "Adobe Acrobat Pro DC #{version}.pkg"
 
     uninstall pkgutil:   [
                 "com.adobe.acrobat.DC.*",

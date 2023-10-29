@@ -2,7 +2,7 @@ cask "bettermouse-mod" do
   version "1.5.4028"
   sha256 "4699abf28c41e4aefe5f11128f2dd997f0ae15304640c7669648dfe084d1d33e"
 
-  url "https://dl.dropboxusercontent.com/scl/fi/ikuo48jwdyped7u1z14jo/BetterMouse-v1.5-4028.dmg?rlkey=5vbq3lfpr27qt0w4wn21gwm8x&dl=0"
+  url "https://github.com/Zenfection/macos/releases/download/1.0/BetterMouse_#{version}.dmg"
   name "BetterMouse"
   desc "Utility improving 3rd party mouse performance and functionalities"
   homepage "https://better-mouse.com/"

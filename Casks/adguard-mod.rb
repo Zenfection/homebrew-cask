@@ -1,11 +1,11 @@
 cask "adguard-mod" do
-    version "2.10.0.1239"
-    sha256 "0f46877750d6ebfb7ffef636bcac9fde84ea524e41c46aaa48504b9ba0f8bf26"
+    version "2.12.0.1385"
+    sha256 ""
     url "https://github.com/Zenfection/macos/releases/download/1.0/AdGuard_#{version}.dmg"
     name "AdGuard"
     desc "Stand alone ad blocker"
     homepage "https://github.com/zenfection/macos"
-  
+
     auto_updates true
     conflicts_with cask: "homebrew/cask-versions/adguard-nightly"
     depends_on macos: ">= :sierra"
@@ -24,7 +24,7 @@ cask "adguard-mod" do
                 "/Library/Application Support/com.adguard.Adguard",
               ],
               rmdir:     "/Library/Application Support/AdGuard Software"
-  
+
     zap trash: [
       "/Library/Logs/com.adguard.mac.adguard",
       "~/Library/Application Scripts/*.com.adguard.mac",

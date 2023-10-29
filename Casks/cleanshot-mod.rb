@@ -2,7 +2,7 @@ cask "cleanshot-mod" do
     version "4.6.1"
     sha256 "bf8964b5510d2a6075260d1448f2c069aa79146cbbd422cbc14460e5d4505ea1"
 
-    url "https://dl.dropboxusercontent.com/s/wsmoqvqmahggthc/CleanShot%20X%204.6.1.dmg?dl=0"
+    url "https://github.com/Zenfection/macos/releases/download/1.0/CleanShot.X_#{version}.dmg"
     name "CleanShot"
     desc "Screen capturing tool"
     homepage "https://github.com/zenfection/macos"
