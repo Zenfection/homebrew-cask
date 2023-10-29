@@ -2,7 +2,7 @@ cask "smooze-pro-mod" do
     version "2.0.60"
     sha256 "3b986b74db2eca7ce3613c2676989e8da93d5697ef734f4502707d5da265f8cf"
 
-    url "https://dl.dropboxusercontent.com/scl/fi/om1hyji5vfjktowhrwhck/Smooze_Pro_2.0.60.dmg?rlkey=6cs2zsalm3bfte2m5p039v9ma&dl=0"
+    url "https://github.com/Zenfection/macos/releases/download/1.0/Smooze.Pro_#{version}.dmg"
     name "Smooze Pro"
     desc "Rediscover your scroll wheel mouse"
     homepage "https://smooze.co/"
