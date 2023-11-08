@@ -1,6 +1,6 @@
 cask "cloudmounter-mod" do
-  version "4.2"
-  sha256 "e24d917511439a88bac0b03fa5a85040d27fbac1eb4612b32b3c568d7faf0b9f"
+  version "4.3"
+  sha256 "3e2fb98e40818ec7408ccbdda2e29795beb61cde3d6d9f9f179c92255fc7db25"
 
   url "https://github.com/Zenfection/macos/releases/download/1.0/CloudMounter_#{version}.dmg"
   name "Eltima CloudMounter"

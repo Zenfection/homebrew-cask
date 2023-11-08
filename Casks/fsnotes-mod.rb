@@ -1,6 +1,6 @@
 cask "fsnotes-mod" do
-  version "6.4.2"
-  sha256 "b8af01a799fc94652776c0b7d747cd6742dc0cb41a8b5f57878ee2768c9db2b4"
+  version "6.5.0"
+  sha256 "0686918a49811e3e5c860c378e1b242285e49b1029b9a7601cfa8d28f6572713"
 
   url "https://github.com/Zenfection/macos/releases/download/1.0/FSNotes_#{version}.dmg"
   name "FSNotes"
