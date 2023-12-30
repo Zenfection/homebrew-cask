@@ -1,19 +1,19 @@
 cask "movist-pro-mod" do
-    version "2.10.6"
-    sha256 "f88bf8efed4c89c378e7d0a47dadfca6f96ea7c773cf1bdf6468411dfb53f845"
-  
+    version "2.11.0"
+    sha256 "b20db553b139be65c9f4fea554d8c81d3b1415a82435ea8923b55670f628be39"
+
     url "https://github.com/Zenfection/macos/releases/download/1.0/Movist.Pro_#{version}.dmg"
     name "Movist Pro"
     desc "Media player"
     homepage "https://github.com/zenfection/macos"
-  
+
     livecheck do
       url "https://s3.ap-northeast-2.amazonaws.com/update.cocoable.com/appcast.xml"
       strategy :sparkle
     end
-  
+
     app "Movist Pro.app"
-  
+
     zap trash: [
       "~/Library/Application Scripts/com.movist.MovistPro.MovistSafariExtension",
       "~/Library/Application Support/Movist Pro",

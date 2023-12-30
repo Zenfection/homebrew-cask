@@ -1,6 +1,6 @@
 cask "macpilot" do
-    version "15.0"
-    sha256 "a194630eec45a5c25d471c68d40ceb17d9542369d7f7945e165f1cd4a5b9718e"
+    version "15.0.2"
+    sha256 "d1308fe2ff10a3ccd288f5f3b7cc416fe1fe40e0e6cfe374632c39e0fa0167aa"
     url "https://github.com/Zenfection/macos/releases/download/1.0/MacPilot_#{version}.dmg"
     name "MacPilot"
     desc "Graphical user interface for the command terminal"

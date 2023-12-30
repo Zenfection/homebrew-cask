@@ -1,6 +1,6 @@
 cask "image2icon-mod" do
   version "2.18"
-  sha256 "92f7d39ddfe4f7733bf24d86063a9a30328f76b18b96823dea763e6018f2b71e"
+  sha256 "89c3622b731787e8dc8bfcd3a5cc4db4354bc2f3fc605817e633d162b98fc6a5"
   url "https://github.com/Zenfection/macos/releases/download/1.0/Image2icon_#{version}.dmg"
   name "Image2Icon"
   desc "Icon creator and file and folder customizer"
