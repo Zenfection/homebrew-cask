@@ -1,6 +1,6 @@
 cask "propresenter-mod" do
-  version "7.14"
-  sha256 "27824bd82f29d6d8be5e59da76a04b8de5dc833dc67b23027bae16eb26edaf71"
+  version "7.16.1"
+  sha256 "326470a2bc7da5f4292e40f0c1804bd84808d5ac1508703244c452be2cc498b9"
 
   url "https://github.com/Zenfection/macos/releases/download/1.0/ProPresenter_#{version}.zip"
   name "ProPresenter"
