@@ -1,6 +1,6 @@
 cask "downie-mod" do
-  version "4.7.5"
-  sha256 "4d5d327781d7548e2085a795b9e59cba1693e1a2eb4b8722abc9e56c05c226cc"
+  version "4.7.18"
+  sha256 "ccc9b1be61fc11fd73794f0eff346597edae8ef50bcf35171a2a5d96b8cc59ac"
 
   url "https://github.com/Zenfection/macos/releases/download/1.0/Downie_#{version}.dmg"
   name "Downie"

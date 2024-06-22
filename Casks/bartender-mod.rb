@@ -1,6 +1,6 @@
 cask "bartender-mod" do
-  version "5.0.50"
-  sha256 "24e4e9abf10fb8c502e9bdc8a343429e1e7065795852f02f289160791b1067f0"
+  version "5.0.54"
+  sha256 "b2949f2ed2161b5ad2442aaa00c8162814f2d64a16ce79b00a13ea7d370e1eba"
   url "https://github.com/Zenfection/macos/releases/download/1.0/Bartender_#{version}.dmg"
 
   name "Bartender"

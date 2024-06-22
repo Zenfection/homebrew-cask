@@ -1,6 +1,6 @@
 cask "geekbench-mod" do
-  version "6.6.2"
-  sha256 "85fa8414d8853f90ed4edb04eafcfc3705ae12550cdee78daee40545ace3ea29"
+  version "6.3.0"
+  sha256 "2c0ec9c335404d566f2e37facc8d5cda470d088820185614e1e5a77c35f8da5c"
   url "https://github.com/Zenfection/macos/releases/download/1.0/Geeekbench_#{version}.dmg"
   name "Geekbench"
   desc "Tool to measure the computer system's performance"

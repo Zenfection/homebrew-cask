@@ -1,6 +1,6 @@
 cask "bettermouse-mod" do
-  version "1.5.4230"
-  sha256 "47b49c2f9ea0836b12b04c4386eab7a27a329576d1375f97dfbeeb391bbf81cc"
+  version "1.5.4681"
+  sha256 "9b9f74450953ecac73ce7df56782a89c56f5cf2ce342c8d9b0653e33886c25df"
 
   url "https://github.com/Zenfection/macos/releases/download/1.0/BetterMouse_#{version}.dmg"
   name "BetterMouse"
