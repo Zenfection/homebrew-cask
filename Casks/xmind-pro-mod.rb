@@ -1,6 +1,6 @@
 cask "xmind-pro-mod" do
-    version "23.07"
-    sha256 "181b29e91632f6b11409528e85cd77ba291753f8cc1517b73fa9e3746019764f"
+    version "24.04.10311"
+    sha256 "2fd31fe374529b36503b38cff95326b9738ff10ec68e01b443a3866d6680b084"
     url "https://github.com/Zenfection/macos/releases/download/1.0/XMind_#{version}.dmg"
     name "XMind"
     desc "Mind mapping and brainstorming tool"

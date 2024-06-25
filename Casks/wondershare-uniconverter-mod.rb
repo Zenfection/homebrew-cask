@@ -1,8 +1,8 @@
 cask "wondershare-uniconverter-mod" do
-    version "15.0.5.588"
-    sha256 "79738069445cdc9d9823e955bb2a8dd90015d5fe09c2a7d0c511f94d1fbf87d0"
+    version "15.5.10.178"
+    sha256 "4d1e40288ef970257a46a09950a53bcc006bcb8a34a149b750555a1424cc2bdc"
 
-    url "https://github.com/Zenfection/macos/releases/download/1.0/Wondershare.UniConverter_#{version}.dmg"
+    url "https://github.com/Zenfection/macos/releases/download/1.0/UniConverter_#{version}.dmg"
     name "UniConverter"
     desc "Video editing software"
     homepage "https://github.com/zenfection/macos"
