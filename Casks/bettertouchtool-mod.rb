@@ -1,6 +1,6 @@
 cask "bettertouchtool-mod" do
-    version "4.443"
-    sha256 "16bbcbdc49a4e5a8d385c4b5dd10c32b4d83b083328ef8b80ae6adc08343854d"
+    version "4.664"
+    sha256 "2878588fccd6ba594fc25fb65bbbb8a926a1c3eeab8b78c4ea5e346f05314900"
 
     url "https://github.com/Zenfection/macos/releases/download/1.0/BetterTouchTool_#{version}.dmg"
     name "BetterTouchTool"
