@@ -7,9 +7,6 @@ homebrewPath=~/Desktop/Github/homebrew-cask/Casks
 
 cd $dmgPath
 
-files=$(find . -type f -name "*.dmg" | sed "s|^\./|$dmgPath/|" | xargs)
-echo $files
-
 find . -type f -name "*.dmg" | while read file; do
   if [[ "$file" == *" "* ]]; then
     text=$(basename "$file" .dmg | sed -E 's/([a-zA-Z_ ]+)[0-9.]+/\1/' | sed -E 's/ /./g; s/.([^.]*)$/ \1/' | xargs)
@@ -40,7 +37,7 @@ find . -type f -name "*.dmg" | while read file; do
   fi
 done
 
+
+files=$(find . -type f -name "*.dmg" | sed "s|^\./|$dmgPath/|" | xargs)
 cd $repoPath
 gh release upload $version $files
-
-
