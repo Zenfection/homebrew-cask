@@ -1,6 +1,6 @@
 cask "iconjar-mod" do
-  version "2.11.2"
-  sha256 "4b1719e78c4a4201417e57859ec5200d48eb7af6eece304447ad59b9ce5bcd11"
+  version "2.11.3"
+  sha256 "f49b8d0349ab5dde4c926e2e9cd1f0c686b04dda8d68b1bb3abe43f11842f824"
   url "https://github.com/Zenfection/macos/releases/download/1.0/IconJar_#{version}.dmg"
   name "IconJar"
   desc "Icon organizer"
