@@ -1,6 +1,6 @@
 cask "affinity-photo-mod" do
-  version "2.5.3"
-  sha256 "6ebfe963344b40e0097a931d68f7ac4e9b4fc7be92d1fcfac67ec8a928d85028"
+  version "2.5.5"
+  sha256 "3763ef5f799b1d529936a60a79d59f91374b23792c03f5193d91cf6cf09d610b"
 
   url "https://github.com/Zenfection/macos/releases/download/1.0/Affinity_Photo_#{version}.dmg"
   name "Affinity Photo #{version.major}"

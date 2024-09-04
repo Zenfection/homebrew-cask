@@ -1,6 +1,6 @@
 cask "affinity-designer-mod" do
-  version "2.5.3"
-  sha256 "ab0c7c4a36fa983df04e55bcb52406a7dbdf5f62504d53b179dda2bd0a35911d"
+  version "2.5.5"
+  sha256 "8e3d3a42a5a145b026f115408f1c66f43590e7efc7b491ff5213c299a64751d9"
 
   url "https://github.com/Zenfection/macos/releases/download/1.0/Affinity.Designer_#{version}.dmg"
   name "Affinity Designer #{version.major}"

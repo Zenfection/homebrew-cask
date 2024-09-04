@@ -1,5 +1,5 @@
 cask "videoproc-mod" do
-    version "6.5.20240802"
+    version "6.6"
     sha256 "55845c902e6a3ccc3eb51ac0a9075d7ef0e68351bf817075782e43edab790b4f"
     url "https://github.com/Zenfection/macos/releases/download/1.0/VideoProc.Converter.4K_#{version}.dmg"
     name "VideoProc Convert"

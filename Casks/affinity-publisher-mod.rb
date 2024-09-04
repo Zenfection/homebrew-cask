@@ -1,6 +1,6 @@
 cask "affinity-publisher-mod" do
-  version "2.5.3"
-  sha256 "e80687e4b5e19b60f698539c3fdf675f82c09249f6fc674901707bdf02d119b3"
+  version "2.5.5"
+  sha256 "f76d376b5e768c7b0ea8754edfec2d50398448445ebd8aeab6fdf23ad0919339"
 
   url "https://github.com/Zenfection/macos/releases/download/1.0/Affinity_Publisher_#{version}.dmg"
   name "Affinity Publisher #{version.major}"
