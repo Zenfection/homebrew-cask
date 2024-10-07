@@ -1,6 +1,6 @@
 cask "cleanshot-mod" do
-    version "4.7.3"
-    sha256 "8d02ed0a8c8a80b2f91e2075a80f3f4c9af1d2c2d35cc37cc7f2c2ac5fff4787"
+    version "4.7.4"
+    sha256 "ec6cb928beef3ca80382a2a67f8d80083c27f134b7ea13f3ff60d9e48bc2207b"
 
     url "https://github.com/Zenfection/macos/releases/download/1.0/CleanShot_#{version}.dmg"
     name "CleanShot"

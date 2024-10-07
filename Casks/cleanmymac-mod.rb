@@ -1,8 +1,8 @@
 cask "cleanmymac-mod" do
-  version "4.15.2"
-  sha256 "bb30f502b6ad6c0aa743794732e8c0469677635fd9aec0debca862eec8fe84c8"
+  version "4.15.8"
+  sha256 "7205951d62fa1db6d83443348208d45743e773d5ca60827bb73b93bbc376c10d"
 
-  url "https://github.com/Zenfection/macos/releases/download/1.0/CleanMyMac.X_#{version}.dmg"
+  url "https://github.com/Zenfection/macos/releases/download/1.0/CleanMyMac_#{version}.dmg"
   name "CleanMyMac X"
   desc "Tool to remove unnecessary files and folders from disk"
   homepage "https://github.com/zenfection"

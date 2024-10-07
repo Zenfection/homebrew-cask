@@ -1,6 +1,6 @@
 cask "sketch-mod" do
-    version "100.3"
-    sha256 "260c3c08b55cdb20a85eea3cd49e4d8d810126ac17ced80e6592708e6d06a7c8"
+    version "101.1"
+    sha256 "4263e68304ca020ba8676cdf48c5bcf08c9ed5d7def28da81cc45632bbe492d4"
 
     url "https://github.com/Zenfection/macos/releases/download/1.0/Sketch_#{version}.dmg"
     name "Sketch"
