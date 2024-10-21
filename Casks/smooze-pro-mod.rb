@@ -1,6 +1,6 @@
 cask "smooze-pro-mod" do
-    version "2.0.72"
-    sha256 "eb1d26a6f6177c4c17b03807baf3b6e8405ba054384fa0fefc389cbc2a48f929"
+    version "2.0.80"
+    sha256 "b5824081b6549335f6ad98a3abb358a0bf709f7180bddf315ed23ac271c1192c"
 
     url "https://github.com/Zenfection/macos/releases/download/1.0/Smooze.Pro_#{version}.dmg"
     name "Smooze Pro"
