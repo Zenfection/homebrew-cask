@@ -1,9 +1,9 @@
 #!/bin/bash
 
 version=1.0
-repoPath=~/Desktop/Github/macos
-dmgPath=~/Desktop/Github/homebrew-cask/Cache
-homebrewPath=~/Desktop/Github/homebrew-cask/Casks
+repoPath=/Volumes/Data/Github/macos
+dmgPath=/Volumes/Data/Github/homebrew-cask/Cache
+homebrewPath=/Volumes/Data/Github/homebrew-cask/Casks
 
 cd $dmgPath
 
