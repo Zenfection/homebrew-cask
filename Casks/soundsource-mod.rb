@@ -1,6 +1,6 @@
 cask "soundsource-mod" do
-    version "5.7.4"
-    sha256 "13f52af357251d564e96178315255d53f0ed75f7d4d6e201852fdc42761abfc0"
+    version "5.7.5"
+    sha256 "311499e5c70d955c8a4ca9bad1b7091338c03c8f53596c5cf01e97b6cf16dd90"
 
     url "https://github.com/Zenfection/macos/releases/download/1.0/SoundSource_#{version}.dmg"
     name "SoundSource"
