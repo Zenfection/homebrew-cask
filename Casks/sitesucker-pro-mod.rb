@@ -1,7 +1,7 @@
 cask "sitesucker-pro-mod" do
-  version "5.4.6"
-  sha256 "fc8e929899a5c305018b875d5d5d44c34591eefce9d93e7c6ceb1d051cb6f884"
-  url "https://github.com/Zenfection/macos/releases/download/1.0/SiteSucker_#{version}.dmg"
+  version "5.6"
+  sha256 "8af5c1ca6b5c866ed37baa6f80d0b38d5d8c41f4eb0337e9a1089651b4636888"
+  url "https://github.com/Zenfection/macos/releases/download/1.0/SiteSucker.Pro_#{version}.dmg"
 
   name "SiteSucker Pro"
   desc "Website downloader tool"
@@ -15,7 +15,7 @@ cask "sitesucker-pro-mod" do
   auto_updates true
   depends_on macos: ">= :mojave"
 
-  app "SiteSucker.app"
+  app "SiteSucker Pro.app"
 
   zap trash: [
     "~/Library/Application Scripts/us.sitesucker.mac.sitesucker-pro",
