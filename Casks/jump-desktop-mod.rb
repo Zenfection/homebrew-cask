@@ -1,6 +1,6 @@
 cask "jump-desktop-mod" do
-  version "9.0.99"
-  sha256 "c0b55bd46829645c6c0c01b1261a5a21f59bcf485b912e8400cb0678a276da16"
+  version "9.1.9"
+  sha256 "ddca1e2398c3a574995eadd0684fb84757aa5537ebb05594bc02b6d593f4650d"
 
   url "https://github.com/Zenfection/macos/releases/download/1.0/Jump.Desktop_#{version}.dmg",
       user_agent: :fake
