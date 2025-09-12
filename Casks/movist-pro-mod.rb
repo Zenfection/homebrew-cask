@@ -1,6 +1,6 @@
 cask "movist-pro-mod" do
-    version "2.13.0"
-    sha256 "7966c6c3e4791b67cb1f91bbb89ff847bc9feec87b671fbe4c0c28fc2296b997"
+    version "2.13.1"
+    sha256 "b70b966675a610e6a3d9203ebd9bf44ff11c900958c3b885d29ca02abcadffc0"
 
     url "https://github.com/Zenfection/macos/releases/download/1.0/Movist.Pro_#{version}.dmg"
     name "Movist Pro"

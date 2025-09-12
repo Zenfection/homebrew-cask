@@ -1,6 +1,6 @@
 cask "cleanmymac-mod" do
-  version "5.0.9"
-  sha256 "64b02bf9ef77895e03ece36cd10080c7ade8ffcc16cc2eff3aedd26827fbbf13"
+  version "5.2.1"
+  sha256 "8793bc76910c10dac5df962eefb36a63486e88aee1a16217f2076ee7af652a01"
 
   url "https://github.com/Zenfection/macos/releases/download/1.0/CleanMyMac_#{version}.dmg"
   name "CleanMyMac"

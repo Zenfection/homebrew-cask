@@ -1,7 +1,7 @@
 
 cask "navicat-premium-mod" do
-    version "17.2.4"
-    sha256 "0c7effafce33166d3b7d595fbbeb92359489dc730066a5310dc78933d419cb89"
+    version "17.3.3"
+    sha256 "f4192f6ebde98787597061649acb7d966da9bade331088fd264600798a1a556f"
     url "https://github.com/Zenfection/macos/releases/download/1.0/Navicat.Premium_#{version}.dmg"
     name "Navicat Premium"
     desc "Database administration and development tool"
