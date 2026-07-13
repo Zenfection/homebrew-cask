@@ -6,7 +6,5 @@ cask "squeezer-mod" do
     desc "Compression components for web developers"
     homepage "https://github.com/zenfection/macos"
 
-    depends_on macos: ">= :high_sierra"
-
     app "Squeezer.app"
 end
